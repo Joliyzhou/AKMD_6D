@@ -93,6 +93,7 @@ typedef struct{
 #define MMC31XX_IOC_RM					_IO(MSENSOR, 0x25)
 #define MMC31XX_IOC_RRM					_IO(MSENSOR, 0x26)
 
+#define ECS_IOCTL_GET_USB_CURRENT       _IOR(MSENSOR, 0x53, int)
 
 /* IOCTLs for MMC31XX device */
 #define MMC31XX_IOC_TM					_IO(MSENSOR, 0x18)

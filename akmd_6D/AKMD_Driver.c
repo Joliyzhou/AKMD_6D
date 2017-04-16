@@ -385,6 +385,23 @@ int16_t AKD_GetOpenStatus(int* status)
 	return AKD_SUCCESS;
 }
 
+
+ /*!
+ */
+int16_t AKD_GetUsbCurrent(int* status)
+{
+	if (s_fdDev < 0) {
+		AKMERROR;
+		return AKD_FAIL;
+	}
+	if (ioctl(s_fdDev, ECS_IOCTL_GET_USB_CURRENT, status) < 0) {
+		AKMERROR_STR("ioctl");
+		return AKD_FAIL;
+	}
+	return AKD_SUCCESS;
+}
+
+
 /*!
  */
 int16_t AKD_GetCloseStatus(int* status)

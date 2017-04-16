@@ -258,6 +258,7 @@ int16_t AKD_GetMagneticData(BYTE data[AKM_SENSOR_DATA_SIZE]);
 void AKD_SetYPR(const int buf[AKM_YPR_DATA_SIZE]);
 
 int16_t AKD_GetOpenStatus(int* status);
+int16_t AKD_GetUsbCurrent(int* status);
 
 int16_t AKD_GetCloseStatus(int* status);
 

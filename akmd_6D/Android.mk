@@ -17,7 +17,9 @@ LOCAL_SRC_FILES:= \
 	misc.c \
 	stable_checking.c \
 	yaw_average.c \
-	filter_common.c
+	filter_common.c \
+	check_usb.c \
+	AKM_HDataCheck.c
 
 ifeq ($(AKMD_DEVICE_TYPE), 8963)
 LOCAL_MODULE  := akmd8963
@@ -74,6 +76,7 @@ LOCAL_CFLAGS += -Wall -Wextra
 #LOCAL_CFLAGS += -DAKM_LOG_ENABLE
 LOCAL_CFLAGS += -DENABLE_ACC_FILTER
 #LOCAL_CFLAGS += -DAKM_PG_ENABLE
+LOCAL_CFLAGS += -DAKM_EXTERN_HDATA_CHECK
 
 LOCAL_MODULE_TAGS := eng
 LOCAL_FORCE_STATIC_EXECUTABLE := false

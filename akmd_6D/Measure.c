@@ -27,6 +27,8 @@
 #include "FileIO.h"
 #include "Measure.h"
 #include "misc.h"
+#include "check_usb.h"
+#include "AKM_HDataCheck.h"
 
 #ifdef ENABLE_ACC_FILTER
 #include "stable_checking.h"
@@ -416,6 +418,9 @@ int16 Init_Measure(AKSCPRMS* prms)
 #endif
 	prms->m_form = checkForm();
 
+    prms->m_pre_usb_online = check_usb_online();
+    prms->m_usb_changed = 0;
+	prms->m_usb_online = 0;
 	// Restore the value when succeeding in estimating of HOffset.
 	prms->m_ho   = prms->HSUC_HO[prms->m_form];
 	prms->m_ho32.u.x = (int32)prms->HSUC_HO[prms->m_form].u.x;
@@ -527,6 +532,19 @@ int16 Init_Measure(AKSCPRMS* prms)
 	prms->m_cntSuspend = 0;
 	prms->m_callcnt = 0;
 
+#ifdef AKM_EXTERN_HDATA_CHECK
+    // AKM Test
+    // Reset hdata counter
+    ALOGE("akm_log , %s,%d, reset counter.", __FUNCTION__, __LINE__);
+    prms->m_hdataCnt = 0;
+    AKM_HData_CheckInit(
+        prms->m_hflucv.href,
+        prms->m_ho,
+        prms->m_hbase,
+        &(prms->m_hCenter),
+        &(prms->m_refNorm)
+    );
+#endif
 	return AKRET_PROC_SUCCEED;
 }
 
@@ -544,6 +562,7 @@ void MeasureSNGLoop(AKSCPRMS* prms)
 	int16   ret;
 	int16   i;
 	int16	hdoe_interval = 1;
+	int		current[1];
 
 	/* Acceleration interval */
 	AKMD_LOOP_TIME acc_acq = { -1, 0 };
@@ -613,6 +632,7 @@ void MeasureSNGLoop(AKSCPRMS* prms)
 		/* Copy the last time */
 		lastTime = currTime;
 
+        prms->m_usb_online = check_usb_online();
 		/* Get current time */
 		if (clock_gettime(CLOCK_MONOTONIC, &currTime) < 0) {
 			AKMERROR;
@@ -712,6 +732,35 @@ void MeasureSNGLoop(AKSCPRMS* prms)
 						mag_x = (int16)(bData[1] | (((uint16)bData[2]) << 8));
 						mag_y = (int16)(bData[3] | (((uint16)bData[4]) << 8));
 						mag_z = (int16)(bData[5] | (((uint16)bData[6]) << 8));
+						if(check_usb_online())
+						{
+							AKD_GetUsbCurrent(current);
+							/*ALOGE("MagXYZ= %d %d %d UsbOnCurrent: %d\n",mag_x,mag_y,mag_z,current[0]);*/
+							#if 0
+								/*  1616 pro  */
+							mag_x = mag_x - (int16)(0.0083*current[0]);
+							mag_y = mag_y + (int16)(0.0526*current[0]);
+							mag_z = mag_z - (int16)(0.0300*current[0]);
+							
+									
+								/*  1627 pro new */
+							mag_x = mag_x-(int16)(0.0104*current[0]);
+							mag_y = mag_y-(int16)(0.0156*current[0]);
+							mag_z = mag_z+(int16)(0.0124*current[0]);
+							#endif
+								/*  1618 pro  */
+							mag_x = mag_x + (int16)(0.0013*current[0]);
+							mag_y = mag_y + (int16)(0.0008*current[0]);
+							mag_z = mag_z - (int16)(0.0167*current[0]);
+							
+							
+						}
+						else
+						{
+							AKD_GetUsbCurrent(current);
+							/*ALOGE("MagXYZ= %d %d %d UsbOffCurrent: %d\n",mag_x,mag_y,mag_z,current[0]);*/
+						}
+					
 						mag_x /= 4;
 						bData[1] = mag_x & 0xFF;
 						bData[2] = (mag_x >> 8) &0xFF;
@@ -1043,6 +1092,33 @@ int16 GetMagneticVector(
 		ret |= AKRET_HBASE_CHANGED;
 		return ret;
 	}
+	
+#ifdef AKM_EXTERN_HDATA_CHECK
+    // AKM Test
+    // Check hdata
+    if (prms->m_hdataCnt++ < CSPEC_HDATA_CNT) {
+        ret = AKM_HData_Check(
+            prms->m_hdata[0],
+            prms->m_hbase,
+            prms->m_hCenter,
+            prms->m_refNorm,
+            CSPEC_HDATA_CHANGE_TH
+        );
+        if (ret != AKM_HDATA_CHECK_SUCCESS) {
+			AKSC_SetHDOEEXLevel(
+			    prms->m_doeex_var,
+				&prms->m_ho,
+                AKSC_HDST_UNSOLVED,
+                1
+			);
+            prms->m_hdst = AKSC_HDST_UNSOLVED;
+            ret |= AKRET_EXTERN_HCHECK_FAILED;
+            ALOGE("akm_log, hdata changing checked when restart.");
+            return ret;
+        }
+    }
+#endif
+
 //	prms->m_cntSuspend = 0;
 	if (prms->m_cntSuspend <= 0) {
 		// Detect a fluctuation of magnetic field.
@@ -1211,7 +1287,11 @@ int16 GetMagneticVector(
 					prms->m_ho32.u.z = (int32)prms->m_ho.u.z;
 
 					prms->HSUC_HDST[prms->m_form] = prms->m_hdst;
-					prms->HFLUCV_HREF[prms->m_form] = prms->m_hflucv.href;
+#ifdef AKM_EXTERN_HDATA_CHECK
+                    prms->HFLUCV_HREF[prms->m_form] = prms->m_hdata[0];
+#else
+                    prms->HFLUCV_HREF[prms->m_form] = prms->m_hflucv.href;
+#endif
 					prms->HSUC_HBASE[prms->m_form] = prms->m_hbase;
 				//}
 
@@ -1246,7 +1326,21 @@ int16 GetMagneticVector(
 		//ret |= AKRET_VNORM_ERROR;
 		//return ret;
 	}
-
+	//ALOGE("akm_log usb status m_usb_online %d ,m_pre_usb_online %d ,prms->m_usb_changed %d\n",prms->m_usb_online,prms->m_pre_usb_online,prms->m_usb_changed);
+	if(prms->m_usb_online != prms->m_pre_usb_online)
+	//else if((prms->m_usb_online != prms->m_pre_usb_online)&&(prms->m_usb_changed == 0))
+	{	
+		 prms->m_pre_usb_online = prms->m_usb_online;
+		//ALOGE("akm_log usb_online the changed!!!!!"); 
+		//		AKSC_SetHDOEEXLevel(
+		//			prms->m_doeex_var,
+		//			&prms->m_ho,
+		//            AKSC_HDST_UNSOLVED,
+		//            1
+		//		);
+		//	prms->m_hdst = AKSC_HDST_UNSOLVED;
+			ALOGE("akm_log usb_changed set lv 0!!!");
+	}
 	// hvec is updated only when VNorm function is succeeded.
 	prms->m_hvec = hvec;
 
