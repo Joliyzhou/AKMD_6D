@@ -159,6 +159,10 @@ typedef struct _AKSCPRMS{
 	int32vec	m_hbase;
 	int32vec	HSUC_HBASE[CSPEC_NUM_FORMATION];
 
+    // variables for hdata checking when restart
+    int16       m_hdataCnt;
+    int32vec    m_hCenter;
+    int32       m_refNorm;
 } AKSCPRMS;
 
 
