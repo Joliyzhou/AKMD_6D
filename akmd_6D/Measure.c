@@ -27,6 +27,7 @@
 #include "FileIO.h"
 #include "Measure.h"
 #include "misc.h"
+#include "check_usb.h"
 
 #ifdef ENABLE_ACC_FILTER
 #include "stable_checking.h"
@@ -416,6 +417,9 @@ int16 Init_Measure(AKSCPRMS* prms)
 #endif
 	prms->m_form = checkForm();
 
+    prms->m_pre_usb_online = check_usb_online();
+    prms->m_usb_changed = 0;
+	prms->m_usb_online = 0;
 	// Restore the value when succeeding in estimating of HOffset.
 	prms->m_ho   = prms->HSUC_HO[prms->m_form];
 	prms->m_ho32.u.x = (int32)prms->HSUC_HO[prms->m_form].u.x;
@@ -613,6 +617,7 @@ void MeasureSNGLoop(AKSCPRMS* prms)
 		/* Copy the last time */
 		lastTime = currTime;
 
+        prms->m_usb_online = check_usb_online();
 		/* Get current time */
 		if (clock_gettime(CLOCK_MONOTONIC, &currTime) < 0) {
 			AKMERROR;
@@ -1246,7 +1251,21 @@ int16 GetMagneticVector(
 		//ret |= AKRET_VNORM_ERROR;
 		//return ret;
 	}
-
+	//ALOGE("akm_log usb status m_usb_online %d ,m_pre_usb_online %d ,prms->m_usb_changed %d\n",prms->m_usb_online,prms->m_pre_usb_online,prms->m_usb_changed);
+	if(prms->m_usb_online != prms->m_pre_usb_online)
+	//else if((prms->m_usb_online != prms->m_pre_usb_online)&&(prms->m_usb_changed == 0))
+	{	
+		 prms->m_pre_usb_online = prms->m_usb_online;
+		//ALOGE("akm_log usb_online the changed!!!!!"); 
+				AKSC_SetHDOEEXLevel(
+					prms->m_doeex_var,
+					&prms->m_ho,
+		            AKSC_HDST_UNSOLVED,
+		            1
+				);
+			prms->m_hdst = AKSC_HDST_UNSOLVED;
+			ALOGE("akm_log usb_changed set lv 0!!!");
+	}
 	// hvec is updated only when VNorm function is succeeded.
 	prms->m_hvec = hvec;
 
