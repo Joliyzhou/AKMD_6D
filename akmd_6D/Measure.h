@@ -39,6 +39,9 @@
 #define AKRET_VNORM_ERROR		0x40	/*!< AKSC_VNorm error. */
 #define AKRET_PROC_FAIL			0x80	/*!< The process failes. */
 
+#ifdef AKM_EXTERN_HDATA_CHECK
+#define AKRET_EXTERN_HCHECK_FAILED    0x24
+#endif
 
 /*** Type declaration *********************************************************/
 typedef int16(*OPEN_FORM)(void);

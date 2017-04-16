@@ -27,6 +27,7 @@
 #include "FileIO.h"
 #include "Measure.h"
 #include "misc.h"
+#include "AKM_HDataCheck.h"
 
 #ifdef ENABLE_ACC_FILTER
 #include "stable_checking.h"
@@ -527,6 +528,19 @@ int16 Init_Measure(AKSCPRMS* prms)
 	prms->m_cntSuspend = 0;
 	prms->m_callcnt = 0;
 
+#ifdef AKM_EXTERN_HDATA_CHECK
+    // AKM Test
+    // Reset hdata counter
+    ALOGE("akm_log , %s,%d, reset counter.", __FUNCTION__, __LINE__);
+    prms->m_hdataCnt = 0;
+    AKM_HData_CheckInit(
+        prms->m_hflucv.href,
+        prms->m_ho,
+        prms->m_hbase,
+        &(prms->m_hCenter),
+        &(prms->m_refNorm)
+    );
+#endif
 	return AKRET_PROC_SUCCEED;
 }
 
@@ -1043,6 +1057,33 @@ int16 GetMagneticVector(
 		ret |= AKRET_HBASE_CHANGED;
 		return ret;
 	}
+	
+#ifdef AKM_EXTERN_HDATA_CHECK
+    // AKM Test
+    // Check hdata
+    if (prms->m_hdataCnt++ < CSPEC_HDATA_CNT) {
+        ret = AKM_HData_Check(
+            prms->m_hdata[0],
+            prms->m_hbase,
+            prms->m_hCenter,
+            prms->m_refNorm,
+            CSPEC_HDATA_CHANGE_TH
+        );
+        if (ret != AKM_HDATA_CHECK_SUCCESS) {
+			AKSC_SetHDOEEXLevel(
+			    prms->m_doeex_var,
+				&prms->m_ho,
+                AKSC_HDST_UNSOLVED,
+                1
+			);
+            prms->m_hdst = AKSC_HDST_UNSOLVED;
+            ret |= AKRET_EXTERN_HCHECK_FAILED;
+            ALOGE("akm_log, hdata changing checked when restart.");
+            return ret;
+        }
+    }
+#endif
+
 //	prms->m_cntSuspend = 0;
 	if (prms->m_cntSuspend <= 0) {
 		// Detect a fluctuation of magnetic field.
@@ -1211,7 +1252,11 @@ int16 GetMagneticVector(
 					prms->m_ho32.u.z = (int32)prms->m_ho.u.z;
 
 					prms->HSUC_HDST[prms->m_form] = prms->m_hdst;
-					prms->HFLUCV_HREF[prms->m_form] = prms->m_hflucv.href;
+#ifdef AKM_EXTERN_HDATA_CHECK
+                    prms->HFLUCV_HREF[prms->m_form] = prms->m_hdata[0];
+#else
+                    prms->HFLUCV_HREF[prms->m_form] = prms->m_hflucv.href;
+#endif
 					prms->HSUC_HBASE[prms->m_form] = prms->m_hbase;
 				//}
 
