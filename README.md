@@ -1,6 +1,4 @@
-# hello-world
-Just another repository
+#AKMD_6D
+#Compass algorithm
 
-the second modify
-
-new modify on the unbutn 
+#the common code

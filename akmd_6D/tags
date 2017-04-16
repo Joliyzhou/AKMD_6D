@@ -1,0 +1,1233 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCFNC_DEINITDEVICE	AKMD_Driver.h	/^typedef void(*ACCFNC_DEINITDEVICE)(void);$/;"	t
+ACCFNC_GETACCDATA	AKMD_Driver.h	/^typedef int16_t(*ACCFNC_GETACCDATA)(int16_t data[3]);$/;"	t
+ACCFNC_GETACCOFFSET	AKMD_Driver.h	/^typedef int16_t(*ACCFNC_GETACCOFFSET)(int16_t offset[3]);$/;"	t
+ACCFNC_GETACCVEC	AKMD_Driver.h	/^typedef void(*ACCFNC_GETACCVEC)($/;"	t
+ACCFNC_INITDEVICE	AKMD_Driver.h	/^typedef int16_t(*ACCFNC_INITDEVICE)(void);$/;"	t
+ACCFNC_SET_DELAY	AKMD_Driver.h	/^typedef int16_t(*ACCFNC_SET_DELAY)(const int64_t ns);$/;"	t
+ACCFNC_SET_ENABLE	AKMD_Driver.h	/^typedef int16_t(*ACCFNC_SET_ENABLE)(const int8_t enabled);$/;"	t
+ACC_ACQ_FLAG_POS	Measure.c	36;"	d	file:
+ACC_BUFFER_SIZE	stable_checking.c	11;"	d	file:
+ACC_DATA_FLAG	AKMD_Driver.h	152;"	d
+ACC_DATA_READY	AKMD_Driver.h	157;"	d
+ACC_INT_FLAG_POS	Measure.c	40;"	d	file:
+ACC_MES_FLAG_POS	Measure.c	39;"	d	file:
+ACC_STDEV_FILE	CustomerSpec.h	73;"	d
+AK09911_FUSE_ASAX	AKMD_Driver.h	77;"	d
+AK09911_FUSE_ASAY	AKMD_Driver.h	78;"	d
+AK09911_FUSE_ASAZ	AKMD_Driver.h	79;"	d
+AK09911_MODE_FUSE_ACCESS	AKMD_Driver.h	86;"	d
+AK09911_MODE_POWERDOWN	AKMD_Driver.h	87;"	d
+AK09911_MODE_SELF_TEST	AKMD_Driver.h	85;"	d
+AK09911_MODE_SNG_MEASURE	AKMD_Driver.h	84;"	d
+AK09911_REGS_SIZE	AKMD_Driver.h	90;"	d
+AK09911_REG_CNTL1	AKMD_Driver.h	70;"	d
+AK09911_REG_CNTL2	AKMD_Driver.h	71;"	d
+AK09911_REG_CNTL3	AKMD_Driver.h	72;"	d
+AK09911_REG_HXH	AKMD_Driver.h	63;"	d
+AK09911_REG_HXL	AKMD_Driver.h	62;"	d
+AK09911_REG_HYH	AKMD_Driver.h	65;"	d
+AK09911_REG_HYL	AKMD_Driver.h	64;"	d
+AK09911_REG_HZH	AKMD_Driver.h	67;"	d
+AK09911_REG_HZL	AKMD_Driver.h	66;"	d
+AK09911_REG_INFO1	AKMD_Driver.h	59;"	d
+AK09911_REG_INFO2	AKMD_Driver.h	60;"	d
+AK09911_REG_ST1	AKMD_Driver.h	61;"	d
+AK09911_REG_ST2	AKMD_Driver.h	69;"	d
+AK09911_REG_TMPS	AKMD_Driver.h	68;"	d
+AK09911_REG_WIA1	AKMD_Driver.h	57;"	d
+AK09911_REG_WIA2	AKMD_Driver.h	58;"	d
+AK09911_RESET_DATA	AKMD_Driver.h	88;"	d
+AK09911_WIA1_VALUE	AKMD_Driver.h	91;"	d
+AK09911_WIA2_VALUE	AKMD_Driver.h	92;"	d
+AK8963_FUSE_ASAX	AKMD_Driver.h	112;"	d
+AK8963_FUSE_ASAY	AKMD_Driver.h	113;"	d
+AK8963_FUSE_ASAZ	AKMD_Driver.h	114;"	d
+AK8963_MODE_FUSE_ACCESS	AKMD_Driver.h	118;"	d
+AK8963_MODE_POWERDOWN	AKMD_Driver.h	119;"	d
+AK8963_MODE_SELF_TEST	AKMD_Driver.h	117;"	d
+AK8963_MODE_SNG_MEASURE	AKMD_Driver.h	116;"	d
+AK8963_REGS_SIZE	AKMD_Driver.h	122;"	d
+AK8963_REG_ASTC	AKMD_Driver.h	107;"	d
+AK8963_REG_CNTL1	AKMD_Driver.h	105;"	d
+AK8963_REG_CNTL2	AKMD_Driver.h	106;"	d
+AK8963_REG_HXH	AKMD_Driver.h	99;"	d
+AK8963_REG_HXL	AKMD_Driver.h	98;"	d
+AK8963_REG_HYH	AKMD_Driver.h	101;"	d
+AK8963_REG_HYL	AKMD_Driver.h	100;"	d
+AK8963_REG_HZH	AKMD_Driver.h	103;"	d
+AK8963_REG_HZL	AKMD_Driver.h	102;"	d
+AK8963_REG_I2CDIS	AKMD_Driver.h	110;"	d
+AK8963_REG_INFO	AKMD_Driver.h	96;"	d
+AK8963_REG_ST1	AKMD_Driver.h	97;"	d
+AK8963_REG_ST2	AKMD_Driver.h	104;"	d
+AK8963_REG_TS1	AKMD_Driver.h	108;"	d
+AK8963_REG_TS2	AKMD_Driver.h	109;"	d
+AK8963_REG_WIA	AKMD_Driver.h	95;"	d
+AK8963_RESET_DATA	AKMD_Driver.h	120;"	d
+AK8963_WIA_VALUE	AKMD_Driver.h	123;"	d
+AKD_AccSetDelay	AKMD_Driver.c	/^int16_t AKD_AccSetDelay(int64_t delay)$/;"	f
+AKD_AccSetEnable	AKMD_Driver.c	/^int16_t AKD_AccSetEnable(int8_t enabled)$/;"	f
+AKD_DBG_DATA	AKMD_Driver.h	172;"	d
+AKD_DISABLE	AKMD_Driver.h	169;"	d
+AKD_DeinitDevice	AKMD_Driver.c	/^void AKD_DeinitDevice(void)$/;"	f
+AKD_ENABLE	AKMD_Driver.h	168;"	d
+AKD_ERROR	AKMD_Driver.h	166;"	d
+AKD_FAIL	AKMD_Driver.h	165;"	d
+AKD_FALSE	AKMD_Driver.h	163;"	d
+AKD_GetAccelerationData	AKMD_Driver.c	/^int16_t AKD_GetAccelerationData(int16_t data[3])$/;"	f
+AKD_GetAccelerationOffset	AKMD_Driver.c	/^int16_t AKD_GetAccelerationOffset(int16_t offset[3])$/;"	f
+AKD_GetAccelerationVector	AKMD_Driver.c	/^void AKD_GetAccelerationVector($/;"	f
+AKD_GetCloseStatus	AKMD_Driver.c	/^int16_t AKD_GetCloseStatus(int* status)$/;"	f
+AKD_GetDelay	AKMD_Driver.c	/^int16_t AKD_GetDelay(int64_t delay[AKM_NUM_SENSORS])$/;"	f
+AKD_GetLayout	AKMD_Driver.c	/^int16_t AKD_GetLayout(int16_t* layout)$/;"	f
+AKD_GetMagneticData	AKMD_Driver.c	/^int16_t AKD_GetMagneticData(BYTE data[AKM_SENSOR_DATA_SIZE])$/;"	f
+AKD_GetOpenStatus	AKMD_Driver.c	/^int16_t AKD_GetOpenStatus(int* status)$/;"	f
+AKD_GetSensorConf	AKMD_Driver.c	/^int16_t AKD_GetSensorConf(BYTE data[AKM_SENSOR_CONF_SIZE])$/;"	f
+AKD_GetSensorInfo	AKMD_Driver.c	/^int16_t AKD_GetSensorInfo(BYTE data[AKM_SENSOR_INFO_SIZE])$/;"	f
+AKD_InitDevice	AKMD_Driver.c	/^int16_t AKD_InitDevice(void)$/;"	f
+AKD_Reset	AKMD_Driver.c	/^int16_t AKD_Reset(void) {$/;"	f
+AKD_RxData	AKMD_Driver.c	/^int16_t AKD_RxData($/;"	f
+AKD_SUCCESS	AKMD_Driver.h	164;"	d
+AKD_SetMode	AKMD_Driver.c	/^int16_t AKD_SetMode(const BYTE mode)$/;"	f
+AKD_SetYPR	AKMD_Driver.c	/^void AKD_SetYPR(const int buf[AKM_YPR_DATA_SIZE])$/;"	f
+AKD_TRUE	AKMD_Driver.h	162;"	d
+AKD_TxData	AKMD_Driver.c	/^int16_t AKD_TxData($/;"	f
+AKLIB_C_API_END	libSmartCompass/AKConfigure.h	30;"	d
+AKLIB_C_API_END	libSmartCompass/AKConfigure.h	33;"	d
+AKLIB_C_API_START	libSmartCompass/AKConfigure.h	29;"	d
+AKLIB_C_API_START	libSmartCompass/AKConfigure.h	32;"	d
+AKMDBG_ACCDRV	AKMLog.h	116;"	d
+AKMDBG_D6D	AKMLog.h	113;"	d
+AKMDBG_DEBUG	AKMLog.h	108;"	d
+AKMDBG_DISP1	AKMLog.h	117;"	d
+AKMDBG_DISP2	AKMLog.h	118;"	d
+AKMDBG_DOEPLUS	AKMLog.h	119;"	d
+AKMDBG_DUMP	AKMLog.h	109;"	d
+AKMDBG_EXECTIME	AKMLog.h	110;"	d
+AKMDBG_GETINTERVAL	AKMLog.h	111;"	d
+AKMDBG_MAGDRV	AKMLog.h	115;"	d
+AKMDBG_PGYR	AKMLog.h	114;"	d
+AKMDBG_VECTOR	AKMLog.h	112;"	d
+AKMDEBUG	AKMLog.h	127;"	d
+AKMDEBUG	AKMLog.h	132;"	d
+AKMD_ACC_INTERVAL	Measure.c	49;"	d	file:
+AKMD_ACC_MIN_INTERVAL	Measure.c	46;"	d	file:
+AKMD_FORM0	misc.h	30;"	d
+AKMD_FORM1	misc.h	31;"	d
+AKMD_FUSION_INTERVAL	Measure.c	50;"	d	file:
+AKMD_FUSION_MIN_INTERVAL	Measure.c	47;"	d	file:
+AKMD_INC_ACCAOT_H	Acc_aot.h	25;"	d
+AKMD_INC_AKCOMMON_H	AKCommon.h	25;"	d
+AKMD_INC_AKCOMPASS_H	AKCompass.h	25;"	d
+AKMD_INC_AKMD_DRIVER_H	AKMD_Driver.h	25;"	d
+AKMD_INC_AKMLOG_H	AKMLog.h	25;"	d
+AKMD_INC_CUSTOMERSPEC_H	CustomerSpec.h	25;"	d
+AKMD_INC_DISPMESG_H	DispMessage.h	25;"	d
+AKMD_INC_FILEIO_H	FileIO.h	25;"	d
+AKMD_INC_FILTER_COMMON_H	filter_common.h	3;"	d
+AKMD_INC_FST_H	FST.h	25;"	d
+AKMD_INC_MEASURE_H	Measure.h	25;"	d
+AKMD_INC_MISC_H	misc.h	25;"	d
+AKMD_INTERVAL	misc.c	/^struct AKMD_INTERVAL {$/;"	s	file:
+AKMD_LOOP_MARGIN	Measure.c	51;"	d	file:
+AKMD_LOOP_TIME	misc.h	/^} AKMD_LOOP_TIME;$/;"	t	typeref:struct:_AKMD_LOOP_TIME
+AKMD_MAG_INTERVAL	Measure.c	48;"	d	file:
+AKMD_MAG_MIN_INTERVAL	Measure.c	45;"	d	file:
+AKMD_PATNO	AKCompass.h	/^} AKMD_PATNO;$/;"	t	typeref:enum:_AKMD_PATNO
+AKMD_SETTING_INTERVAL	Measure.c	52;"	d	file:
+AKMD_ST2_POS	Measure.c	58;"	d	file:
+AKMD_ST2_POS	Measure.c	60;"	d	file:
+AKMERROR	AKMLog.h	146;"	d
+AKMERROR_STR	AKMLog.h	149;"	d
+AKM_DATA_SIZE	yaw_average.c	4;"	d	file:
+AKM_DRDY_IS_HIGH	AKMD_Driver.h	135;"	d
+AKM_FUSE_1ST_ADDR	AKMD_Driver.h	144;"	d
+AKM_I2C_NAME	AKMD_Driver.h	127;"	d
+AKM_LOG	AKMLog.h	137;"	d
+AKM_LOG	AKMLog.h	139;"	d
+AKM_MEASUREMENT_TIME_NS	AKMD_Driver.h	174;"	d
+AKM_MEASURE_RETRY_NUM	AKMD_Driver.c	28;"	d	file:
+AKM_MEASURE_TIME_US	AKMD_Driver.h	134;"	d
+AKM_MISCDEV_NAME	AKMD_Driver.h	128;"	d
+AKM_MODE_FUSE_ACCESS	AKMD_Driver.h	148;"	d
+AKM_MODE_POWERDOWN	AKMD_Driver.h	149;"	d
+AKM_MODE_SELF_TEST	AKMD_Driver.h	147;"	d
+AKM_MODE_SNG_MEASURE	AKMD_Driver.h	146;"	d
+AKM_NUM_SENSORS	AKMD_Driver.h	155;"	d
+AKM_PERM	FileIO.c	27;"	d	file:
+AKM_REGS_1ST_ADDR	AKMD_Driver.h	143;"	d
+AKM_REGS_SIZE	AKMD_Driver.h	142;"	d
+AKM_REG_MODE	AKMD_Driver.h	131;"	d
+AKM_REG_RESET	AKMD_Driver.h	132;"	d
+AKM_REG_STATUS	AKMD_Driver.h	133;"	d
+AKM_RESET_DATA	AKMD_Driver.h	150;"	d
+AKM_RWBUF_SIZE	AKMD_Driver.h	141;"	d
+AKM_SENSOR_CONF_SIZE	AKMD_Driver.h	137;"	d
+AKM_SENSOR_DATA_SIZE	AKMD_Driver.h	138;"	d
+AKM_SENSOR_INFO_SIZE	AKMD_Driver.h	136;"	d
+AKM_SYSCLS_NAME	AKMD_Driver.h	129;"	d
+AKM_SYSDEV_NAME	AKMD_Driver.h	130;"	d
+AKM_YPR_DATA_SIZE	AKMD_Driver.h	140;"	d
+AKPG_COND	libSmartCompass/AKPseudoGyro.h	/^} AKPG_COND;$/;"	t	typeref:struct:_AKPG_COND
+AKPG_DBUF_SIZE	libSmartCompass/AKPseudoGyro.h	37;"	d
+AKPG_FBUF_SIZE	libSmartCompass/AKPseudoGyro.h	31;"	d
+AKPG_MBUF_SIZE	libSmartCompass/AKPseudoGyro.h	33;"	d
+AKPG_NBUF_SIZE	libSmartCompass/AKPseudoGyro.h	35;"	d
+AKPG_VAR	libSmartCompass/AKPseudoGyro.h	/^} AKPG_VAR;$/;"	t	typeref:struct:_AKPG_VAR
+AKRET_DATA_OVERFLOW	Measure.h	35;"	d
+AKRET_DATA_READERROR	Measure.h	34;"	d
+AKRET_FORMATION_CHANGED	Measure.h	33;"	d
+AKRET_HBASE_CHANGED	Measure.h	37;"	d
+AKRET_HFLUC_OCCURRED	Measure.h	38;"	d
+AKRET_OFFSET_OVERFLOW	Measure.h	36;"	d
+AKRET_PROC_FAIL	Measure.h	40;"	d
+AKRET_PROC_SUCCEED	Measure.h	32;"	d
+AKRET_VNORM_ERROR	Measure.h	39;"	d
+AKSC2SI	Measure.c	55;"	d	file:
+AKSCPRMS	AKCompass.h	/^} AKSCPRMS;$/;"	t	typeref:struct:_AKSCPRMS
+AKSC_AKDOEPLUS_H	libSmartCompass/AKDOEPlus.h	25;"	d
+AKSC_ARCH_64BIT	libSmartCompass/AKConfigure.h	70;"	d
+AKSC_ARITHMETIC_CAST	libSmartCompass/AKConfigure.h	47;"	d
+AKSC_ATAN2F	libSmartCompass/AKMDeviceF.h	61;"	d
+AKSC_ATAN2F	libSmartCompass/AKMDeviceF.h	69;"	d
+AKSC_CERTIFICATION_CERTIFICATED	libSmartCompass/AKCertification.h	30;"	d
+AKSC_CERTIFICATION_DENIED	libSmartCompass/AKCertification.h	31;"	d
+AKSC_CI_MAX_CHARSIZE	libSmartCompass/AKCertification.h	28;"	d
+AKSC_CI_MAX_KEYSIZE	libSmartCompass/AKCertification.h	29;"	d
+AKSC_COSF	libSmartCompass/AKMDeviceF.h	59;"	d
+AKSC_COSF	libSmartCompass/AKMDeviceF.h	67;"	d
+AKSC_DOEAGVAR	libSmartCompass/AKHDOEaG.h	/^typedef struct _AKSC_DOEAGVAR AKSC_DOEAGVAR; \/\/ DOEaG parameters struct$/;"	t	typeref:struct:_AKSC_DOEAGVAR
+AKSC_DOEEXVAR	libSmartCompass/AKHDOEEX.h	/^typedef struct AKSC_DOEEXVAR_ AKSC_DOEEXVAR; \/\/ DOEEX parameters struct$/;"	t	typeref:struct:AKSC_DOEEXVAR_
+AKSC_DOEPVAR	libSmartCompass/AKDOEPlus.h	/^typedef struct _AKSC_DOEPVAR	AKSC_DOEPVAR;	\/\/ DOEPlus parameters struct$/;"	t	typeref:struct:_AKSC_DOEPVAR
+AKSC_DOEP_SIZE	libSmartCompass/AKDOEPlus.h	31;"	d
+AKSC_EPSILON	libSmartCompass/AKMDeviceF.h	38;"	d
+AKSC_EPSILON	libSmartCompass/AKMDeviceF.h	41;"	d
+AKSC_EPSILON	libSmartCompass/AKMDeviceF.h	46;"	d
+AKSC_EPSILON	libSmartCompass/AKMDeviceF.h	49;"	d
+AKSC_FABSF	libSmartCompass/AKMDeviceF.h	62;"	d
+AKSC_FABSF	libSmartCompass/AKMDeviceF.h	70;"	d
+AKSC_FAIL	libSmartCompass/AKMDevice.h	42;"	d
+AKSC_FLOAT	libSmartCompass/AKMDeviceF.h	/^	typedef double	AKSC_FLOAT;$/;"	t
+AKSC_FLOAT	libSmartCompass/AKMDeviceF.h	/^	typedef float	AKSC_FLOAT;$/;"	t
+AKSC_FLTMAX	libSmartCompass/AKMDeviceF.h	39;"	d
+AKSC_FLTMAX	libSmartCompass/AKMDeviceF.h	42;"	d
+AKSC_FLTMAX	libSmartCompass/AKMDeviceF.h	47;"	d
+AKSC_FLTMAX	libSmartCompass/AKMDeviceF.h	50;"	d
+AKSC_FMAT	libSmartCompass/AKMDeviceF.h	/^} AKSC_FMAT;$/;"	t	typeref:union:_AKSC_FMAT
+AKSC_FQUAT	libSmartCompass/AKMDeviceF.h	/^} AKSC_FQUAT;$/;"	t	typeref:union:_AKSC_FQUAT
+AKSC_FVEC	libSmartCompass/AKMDeviceF.h	/^} AKSC_FVEC;$/;"	t	typeref:union:_AKSC_FVEC
+AKSC_GDATA_SIZE	libSmartCompass/AKDirection9D.h	33;"	d
+AKSC_HBUF_SIZE	libSmartCompass/AKHDOE.h	32;"	d
+AKSC_HDATA_SIZE	libSmartCompass/AKMDevice.h	39;"	d
+AKSC_HDFI	libSmartCompass/AKHDOE.h	/^} AKSC_HDFI;$/;"	t	typeref:enum:_AKSC_HDFI
+AKSC_HDFI_NOR	libSmartCompass/AKHDOE.h	/^	AKSC_HDFI_NOR		= 1		\/\/ Normal magnetic intensity$/;"	e	enum:_AKSC_HDFI
+AKSC_HDFI_SMA	libSmartCompass/AKHDOE.h	/^	AKSC_HDFI_SMA		= 0,	\/\/ Low magnetic intensity$/;"	e	enum:_AKSC_HDFI
+AKSC_HDOEProcessS3	libSmartCompass/AKHDOE.h	37;"	d
+AKSC_HDOEVAR	libSmartCompass/AKHDOE.h	/^} AKSC_HDOEVAR;$/;"	t	typeref:struct:_AKSC_HDOEVAR
+AKSC_HDST	libSmartCompass/AKHDOE.h	/^} AKSC_HDST;$/;"	t	typeref:enum:_AKSC_HDST
+AKSC_HDST_L0	libSmartCompass/AKHDOE.h	/^	AKSC_HDST_L0		= 1,	\/\/ Offset has been determined once or more with Level0 parameter$/;"	e	enum:_AKSC_HDST
+AKSC_HDST_L1	libSmartCompass/AKHDOE.h	/^	AKSC_HDST_L1		= 2,	\/\/ Offset has been determined once or more with Level1 parameter$/;"	e	enum:_AKSC_HDST
+AKSC_HDST_L2	libSmartCompass/AKHDOE.h	/^	AKSC_HDST_L2		= 3		\/\/ Offset has been determined once or more with Level2 parameter$/;"	e	enum:_AKSC_HDST
+AKSC_HDST_UNSOLVED	libSmartCompass/AKHDOE.h	/^	AKSC_HDST_UNSOLVED	= 0,	\/\/ Offset is not determined.$/;"	e	enum:_AKSC_HDST
+AKSC_HFLUCVAR	libSmartCompass/AKHFlucCheck.h	/^}AKSC_HFLUCVAR;$/;"	t	typeref:struct:_AKSC_HFLUCVAR
+AKSC_HOBUF_SIZE	libSmartCompass/AKHDOE.h	33;"	d
+AKSC_HSENSE_TARGET	libSmartCompass/AKDecomp.h	32;"	d
+AKSC_INC_AKCERTIFICATION_H	libSmartCompass/AKCertification.h	25;"	d
+AKSC_INC_AKCONFIG_H	libSmartCompass/AKConfigure.h	25;"	d
+AKSC_INC_AKDECOMP_H	libSmartCompass/AKDecomp.h	25;"	d
+AKSC_INC_AKDIRECTION6D_H	libSmartCompass/AKDirection6D.h	25;"	d
+AKSC_INC_AKDIRECTION9D_H	libSmartCompass/AKDirection9D.h	25;"	d
+AKSC_INC_AKHDOEAG_H	libSmartCompass/AKHDOEaG.h	25;"	d
+AKSC_INC_AKHDOEEX_H	libSmartCompass/AKHDOEEX.h	25;"	d
+AKSC_INC_AKHDOE_H	libSmartCompass/AKHDOE.h	25;"	d
+AKSC_INC_AKHFLUCCHECK_H	libSmartCompass/AKHFlucCheck.h	25;"	d
+AKSC_INC_AKMANUALCAL_H	libSmartCompass/AKManualCal.h	25;"	d
+AKSC_INC_AKMDEVICEF_H	libSmartCompass/AKMDeviceF.h	25;"	d
+AKSC_INC_AKMDEVICE_H	libSmartCompass/AKMDevice.h	25;"	d
+AKSC_INC_AKPSEUDOGYRO_H	libSmartCompass/AKPseudoGyro.h	25;"	d
+AKSC_INC_AKVERSION_H	libSmartCompass/AKVersion.h	25;"	d
+AKSC_InitHDOEProcPrmsS3	libSmartCompass/AKHDOE.h	36;"	d
+AKSC_MAX_HDOE_LEVEL	libSmartCompass/AKHDOE.h	31;"	d
+AKSC_NUM_HCOND	libSmartCompass/AKHDOE.h	30;"	d
+AKSC_PI	libSmartCompass/AKMDeviceF.h	54;"	d
+AKSC_POWF	libSmartCompass/AKMDeviceF.h	64;"	d
+AKSC_POWF	libSmartCompass/AKMDeviceF.h	72;"	d
+AKSC_SINF	libSmartCompass/AKMDeviceF.h	60;"	d
+AKSC_SINF	libSmartCompass/AKMDeviceF.h	68;"	d
+AKSC_SQRTF	libSmartCompass/AKMDeviceF.h	63;"	d
+AKSC_SQRTF	libSmartCompass/AKMDeviceF.h	71;"	d
+AKSC_SUCCESS	libSmartCompass/AKMDevice.h	41;"	d
+AKSC_TEST_MODE	libSmartCompass/AKConfigure.h	38;"	d
+AKSC_USE_STD_FLOAT	libSmartCompass/AKConfigure.h	60;"	d
+ALOGD	AKMLog.h	68;"	d
+ALOGD_IF	AKMLog.h	73;"	d
+ALOGE	AKMLog.h	35;"	d
+ALOGE_IF	AKMLog.h	40;"	d
+ALOGI	AKMLog.h	57;"	d
+ALOGI_IF	AKMLog.h	62;"	d
+ALOGV	AKMLog.h	79;"	d
+ALOGV_IF	AKMLog.h	84;"	d
+ALOGW	AKMLog.h	46;"	d
+ALOGW_IF	AKMLog.h	51;"	d
+ALSPS	sensors_io.h	114;"	d
+ALSPS_GET_ALS_DATA	sensors_io.h	121;"	d
+ALSPS_GET_ALS_MODE	sensors_io.h	120;"	d
+ALSPS_GET_ALS_RAW_DATA	sensors_io.h	122;"	d
+ALSPS_GET_ALS_TEST_RESULT	sensors_io.h	125;"	d
+ALSPS_GET_ALS_THRESHOLD_HIGH	sensors_io.h	128;"	d
+ALSPS_GET_ALS_THRESHOLD_LOW	sensors_io.h	129;"	d
+ALSPS_GET_PS_DATA	sensors_io.h	117;"	d
+ALSPS_GET_PS_MODE	sensors_io.h	116;"	d
+ALSPS_GET_PS_RAW_DATA	sensors_io.h	118;"	d
+ALSPS_GET_PS_TEST_RESULT	sensors_io.h	124;"	d
+ALSPS_GET_PS_THRESHOLD_HIGH	sensors_io.h	126;"	d
+ALSPS_GET_PS_THRESHOLD_LOW	sensors_io.h	127;"	d
+ALSPS_SET_ALS_MODE	sensors_io.h	119;"	d
+ALSPS_SET_PS_MODE	sensors_io.h	115;"	d
+AOT_DeinitDevice	Acc_aot.c	/^void AOT_DeinitDevice(void)$/;"	f
+AOT_GetAccData	Acc_aot.c	/^int16_t AOT_GetAccData(int16_t data[3])$/;"	f
+AOT_GetAccOffset	Acc_aot.c	/^int16_t AOT_GetAccOffset(int16_t offset[3])$/;"	f
+AOT_GetAccVector	Acc_aot.c	/^void AOT_GetAccVector(const int16_t data[3], const int16_t offset[3], int16_t vec[3])$/;"	f
+AOT_InitDevice	Acc_aot.c	/^int16_t AOT_InitDevice(void)$/;"	f
+AOT_SetDelay	Acc_aot.c	/^int16_t AOT_SetDelay(const int64_t ns)$/;"	f
+AOT_SetEnable	Acc_aot.c	/^int16_t AOT_SetEnable(const int8_t enabled)$/;"	f
+Acc_DeinitDevice	AKMD_Driver.c	/^static ACCFNC_DEINITDEVICE Acc_DeinitDevice	= ACC_DUMMY_DeinitDevice;$/;"	v	file:
+Acc_DeinitDevice	AKMD_Driver.c	/^static ACCFNC_DEINITDEVICE Acc_DeinitDevice = ADXL_DeinitDevice;$/;"	v	file:
+Acc_DeinitDevice	AKMD_Driver.c	/^static ACCFNC_DEINITDEVICE Acc_DeinitDevice = AOT_DeinitDevice;$/;"	v	file:
+Acc_DeinitDevice	AKMD_Driver.c	/^static ACCFNC_DEINITDEVICE Acc_DeinitDevice = KXTF9_DeinitDevice;$/;"	v	file:
+Acc_GetAccData	AKMD_Driver.c	/^static ACCFNC_GETACCDATA Acc_GetAccData		= ACC_DUMMY_GetAccData;$/;"	v	file:
+Acc_GetAccData	AKMD_Driver.c	/^static ACCFNC_GETACCDATA Acc_GetAccData		= ADXL_GetAccData;$/;"	v	file:
+Acc_GetAccData	AKMD_Driver.c	/^static ACCFNC_GETACCDATA Acc_GetAccData		= AOT_GetAccData;$/;"	v	file:
+Acc_GetAccData	AKMD_Driver.c	/^static ACCFNC_GETACCDATA Acc_GetAccData		= KXTF9_GetAccData;$/;"	v	file:
+Acc_GetAccOffset	AKMD_Driver.c	/^static ACCFNC_GETACCOFFSET Acc_GetAccOffset	= ACC_DUMMY_GetAccOffset;$/;"	v	file:
+Acc_GetAccOffset	AKMD_Driver.c	/^static ACCFNC_GETACCOFFSET Acc_GetAccOffset	= ADXL_GetAccOffset;$/;"	v	file:
+Acc_GetAccOffset	AKMD_Driver.c	/^static ACCFNC_GETACCOFFSET Acc_GetAccOffset	= AOT_GetAccOffset;$/;"	v	file:
+Acc_GetAccOffset	AKMD_Driver.c	/^static ACCFNC_GETACCOFFSET Acc_GetAccOffset	= KXTF9_GetAccOffset;$/;"	v	file:
+Acc_GetAccVector	AKMD_Driver.c	/^static ACCFNC_GETACCVEC Acc_GetAccVector	= ACC_DUMMY_GetAccVector;$/;"	v	file:
+Acc_GetAccVector	AKMD_Driver.c	/^static ACCFNC_GETACCVEC Acc_GetAccVector	= ADXL_GetAccVector;$/;"	v	file:
+Acc_GetAccVector	AKMD_Driver.c	/^static ACCFNC_GETACCVEC Acc_GetAccVector	= AOT_GetAccVector;$/;"	v	file:
+Acc_GetAccVector	AKMD_Driver.c	/^static ACCFNC_GETACCVEC Acc_GetAccVector	= KXTF9_GetAccVector;$/;"	v	file:
+Acc_InitDevice	AKMD_Driver.c	/^static ACCFNC_INITDEVICE Acc_InitDevice		= ACC_DUMMY_InitDevice;$/;"	v	file:
+Acc_InitDevice	AKMD_Driver.c	/^static ACCFNC_INITDEVICE Acc_InitDevice		= ADXL_InitDevice;$/;"	v	file:
+Acc_InitDevice	AKMD_Driver.c	/^static ACCFNC_INITDEVICE Acc_InitDevice		= AOT_InitDevice;$/;"	v	file:
+Acc_InitDevice	AKMD_Driver.c	/^static ACCFNC_INITDEVICE Acc_InitDevice		= KXTF9_InitDevice;$/;"	v	file:
+Acc_SetDelay	AKMD_Driver.c	/^static ACCFNC_SET_DELAY  Acc_SetDelay		= ACC_DUMMY_SetDelay;$/;"	v	file:
+Acc_SetDelay	AKMD_Driver.c	/^static ACCFNC_SET_DELAY Acc_SetDelay		= ADXL_SetDelay;$/;"	v	file:
+Acc_SetDelay	AKMD_Driver.c	/^static ACCFNC_SET_DELAY Acc_SetDelay		= AOT_SetDelay;$/;"	v	file:
+Acc_SetDelay	AKMD_Driver.c	/^static ACCFNC_SET_DELAY Acc_SetDelay		= KXTF9_SetDelay;$/;"	v	file:
+Acc_SetEnable	AKMD_Driver.c	/^static ACCFNC_SET_ENABLE Acc_SetEnable		= ACC_DUMMY_SetEnable;$/;"	v	file:
+Acc_SetEnable	AKMD_Driver.c	/^static ACCFNC_SET_ENABLE Acc_SetEnable		= ADXL_SetEnable;$/;"	v	file:
+Acc_SetEnable	AKMD_Driver.c	/^static ACCFNC_SET_ENABLE Acc_SetEnable		= AOT_SetEnable;$/;"	v	file:
+Acc_SetEnable	AKMD_Driver.c	/^static ACCFNC_SET_ENABLE Acc_SetEnable		= KXTF9_SetEnable;$/;"	v	file:
+Android2AK	AKMD_Driver.c	/^void Android2AK(int fData[], int16_t data[3])$/;"	f
+Axis	filter_common.h	/^} Axis;$/;"	t	typeref:enum:_Axis
+BAROMETER_GET_PRESS_DATA	sensors_io.h	142;"	d
+BAROMETER_GET_TEMP_DATA	sensors_io.h	143;"	d
+BAROMETER_IOCTL_INIT	sensors_io.h	141;"	d
+BAROMETER_IOCTL_READ_CHIPINFO	sensors_io.h	144;"	d
+BROMETER	sensors_io.h	140;"	d
+BYTE	AKMD_Driver.h	/^typedef unsigned char BYTE;$/;"	t
+CALIBRATION_DATA_SIZE	AKMD_Driver.h	50;"	d
+CHECK_FORM	Measure.h	/^typedef int16(*CHECK_FORM)(void);$/;"	t
+CLOSE_FORM	Measure.h	/^typedef void(*CLOSE_FORM)(void);$/;"	t
+CONVERT_AKSC_Q16	main.c	51;"	d	file:
+CONVERT_FLOAT_Q16	main.c	50;"	d	file:
+CONVERT_Q14_TO_Q16	main.c	49;"	d	file:
+CONVERT_Q6_DEG_Q16_RAD	main.c	52;"	d	file:
+CSPEC_CI_LICENSEE	CustomerSpec.h	33;"	d
+CSPEC_CI_LICENSER	CustomerSpec.h	32;"	d
+CSPEC_CNTSUSPEND_SNG	CustomerSpec.h	49;"	d
+CSPEC_DVEC_X	CustomerSpec.h	41;"	d
+CSPEC_DVEC_Y	CustomerSpec.h	42;"	d
+CSPEC_DVEC_Z	CustomerSpec.h	43;"	d
+CSPEC_ENABLE_DOEPLUS	CustomerSpec.h	76;"	d
+CSPEC_HNAVE	CustomerSpec.h	38;"	d
+CSPEC_NSF	CustomerSpec.h	66;"	d
+CSPEC_NUM_FORMATION	CustomerSpec.h	46;"	d
+CSPEC_PDC_FILE	CustomerSpec.h	72;"	d
+CSPEC_SETTING_FILE	CustomerSpec.h	71;"	d
+CSPEC_SPI_USE	CustomerSpec.h	54;"	d
+CSPEC_TEMPERATURE	CustomerSpec.h	59;"	d
+CalcAngularRate	Measure.c	/^int16 CalcAngularRate(AKSCPRMS* prms)$/;"	f
+CalcAveFloat	filter_common.c	/^float CalcAveFloat(const float data[], const int size)$/;"	f
+CalcDirection	Measure.c	/^int16 CalcDirection(AKSCPRMS* prms)$/;"	f
+CalcDuration	misc.c	/^int64_t CalcDuration(struct timespec* begin, struct timespec* end)$/;"	f
+CalcStdFloat	filter_common.c	/^float CalcStdFloat(const float data[], const int size)$/;"	f
+ConvertCoordinate	misc.c	/^int16 ConvertCoordinate($/;"	f
+ConvertCoordinate32	misc.c	/^int16 ConvertCoordinate32($/;"	f
+D9D_Handle	libSmartCompass/AKDirection9D.h	/^typedef int32 *D9D_Handle;$/;"	t
+DATA_AREA01	AKMLog.h	89;"	d
+DATA_AREA02	AKMLog.h	90;"	d
+DATA_AREA03	AKMLog.h	91;"	d
+DATA_AREA04	AKMLog.h	92;"	d
+DATA_AREA05	AKMLog.h	93;"	d
+DATA_AREA06	AKMLog.h	94;"	d
+DATA_AREA07	AKMLog.h	95;"	d
+DATA_AREA08	AKMLog.h	96;"	d
+DATA_AREA09	AKMLog.h	97;"	d
+DATA_AREA10	AKMLog.h	98;"	d
+DATA_AREA11	AKMLog.h	99;"	d
+DATA_AREA12	AKMLog.h	100;"	d
+DATA_AREA13	AKMLog.h	101;"	d
+DATA_AREA14	AKMLog.h	102;"	d
+DATA_AREA15	AKMLog.h	103;"	d
+DATA_AREA16	AKMLog.h	104;"	d
+DEG2RAD	Measure.c	54;"	d	file:
+DELIMITER	FileIO.h	36;"	d
+DISP_CONV_AKSCF	DispMessage.h	31;"	d
+DISP_CONV_Q6F	DispMessage.h	32;"	d
+DOEP_PRMS	AKCompass.h	/^	AKSC_FLOAT		DOEP_PRMS[CSPEC_NUM_FORMATION][AKSC_DOEP_SIZE];$/;"	m	struct:_AKSCPRMS
+Disp_EndMessage	DispMessage.c	/^void Disp_EndMessage(int ret)$/;"	f
+Disp_MeasurementResult	DispMessage.c	/^void Disp_MeasurementResult(AKSCPRMS* prms)$/;"	f
+Disp_MeasurementResultHook	main.c	/^void Disp_MeasurementResultHook(AKSCPRMS* prms, const uint16 flag)$/;"	f
+Disp_StartMessage	DispMessage.c	/^void Disp_StartMessage(void)$/;"	f
+ECOMPASS_IOC_GET_DELAY	sensors_io.h	104;"	d
+ECOMPASS_IOC_GET_LAYOUT	sensors_io.h	109;"	d
+ECOMPASS_IOC_GET_MFLAG	sensors_io.h	105;"	d
+ECOMPASS_IOC_GET_OFLAG	sensors_io.h	106;"	d
+ECOMPASS_IOC_GET_OPEN_STATUS	sensors_io.h	107;"	d
+ECOMPASS_IOC_SET_YPR	sensors_io.h	108;"	d
+ECS_IOCTL_GETDATA	sensors_io.h	81;"	d
+ECS_IOCTL_GET_ACCEL	sensors_io.h	92;"	d
+ECS_IOCTL_GET_CLOSE_STATUS	sensors_io.h	84;"	d
+ECS_IOCTL_GET_CONF	sensors_io.h	70;"	d
+ECS_IOCTL_GET_DELAY	sensors_io.h	86;"	d
+ECS_IOCTL_GET_DELAY_09911	sensors_io.h	72;"	d
+ECS_IOCTL_GET_INFO	sensors_io.h	69;"	d
+ECS_IOCTL_GET_LAYOUT	sensors_io.h	89;"	d
+ECS_IOCTL_GET_LAYOUT_09911	sensors_io.h	73;"	d
+ECS_IOCTL_GET_MATRIX	sensors_io.h	88;"	d
+ECS_IOCTL_GET_OPEN_STATUS	sensors_io.h	83;"	d
+ECS_IOCTL_GET_OSENSOR_STATUS	sensors_io.h	85;"	d
+ECS_IOCTL_GET_OUTBIT	sensors_io.h	91;"	d
+ECS_IOCTL_GET_PROJECT_NAME	sensors_io.h	87;"	d
+ECS_IOCTL_READ	sensors_io.h	78;"	d
+ECS_IOCTL_RESET	sensors_io.h	79;"	d
+ECS_IOCTL_SET_MODE	sensors_io.h	80;"	d
+ECS_IOCTL_SET_YPR	sensors_io.h	82;"	d
+ECS_IOCTL_SET_YPR_09911	sensors_io.h	71;"	d
+ECS_IOCTL_WRITE	sensors_io.h	77;"	d
+ENABLE_AKMDEBUG	AKMLog.h	122;"	d
+ERROR_FUSEROM	main.c	39;"	d	file:
+ERROR_GETCLOSE_STAT	main.c	44;"	d	file:
+ERROR_GETOPEN_STAT	main.c	42;"	d	file:
+ERROR_GET_SIZE_DOEEX	main.c	45;"	d	file:
+ERROR_GET_SIZE_DOEP	main.c	40;"	d	file:
+ERROR_HLAYOUT	main.c	38;"	d	file:
+ERROR_INITDEVICE	main.c	37;"	d	file:
+ERROR_MALLOC_DOEEX	main.c	46;"	d	file:
+ERROR_MALLOC_DOEP	main.c	41;"	d	file:
+ERROR_OPTPARSE	main.c	36;"	d	file:
+ERROR_STARTCLONE	main.c	43;"	d	file:
+FORM_CLASS	Measure.h	/^} FORM_CLASS;$/;"	t	typeref:struct:_FORM_CLASS
+FST_AK09911	FST_AK09911.c	/^int16 FST_AK09911(void)$/;"	f
+FST_AK8963	FST_AK09911.c	/^int16 FST_AK8963(void)$/;"	f
+FST_AK8963	FST_AK8963.c	/^int16 FST_AK8963(void)$/;"	f
+FST_AK8975	FST_AK8975.c	/^int16 FST_AK8975(void)$/;"	f
+FST_Body	FST_AK09911.c	/^int16 FST_Body(AKSCPRMS* prms)$/;"	f
+FST_Body	FST_AK8963.c	/^int16 FST_Body(AKSCPRMS* prms)$/;"	f
+FST_Body	FST_AK8975.c	/^int16 FST_Body(void)$/;"	f
+FUSION_ACQ_FLAG_POS	Measure.c	38;"	d	file:
+FUSION_DATA_FLAG	AKMD_Driver.h	154;"	d
+FUSION_DATA_READY	AKMD_Driver.h	159;"	d
+GSENSOR	sensors_io.h	40;"	d
+GSENSOR_IOCTL_CLR_CALI	sensors_io.h	49;"	d
+GSENSOR_IOCTL_GET_CALI	sensors_io.h	48;"	d
+GSENSOR_IOCTL_INIT	sensors_io.h	41;"	d
+GSENSOR_IOCTL_READ_CHIPINFO	sensors_io.h	42;"	d
+GSENSOR_IOCTL_READ_GAIN	sensors_io.h	45;"	d
+GSENSOR_IOCTL_READ_OFFSET	sensors_io.h	44;"	d
+GSENSOR_IOCTL_READ_RAW_DATA	sensors_io.h	46;"	d
+GSENSOR_IOCTL_READ_SENSORDATA	sensors_io.h	43;"	d
+GSENSOR_IOCTL_SET_CALI	sensors_io.h	47;"	d
+GSENSOR_NAME	AKMD_Driver.c	32;"	d	file:
+GSENSOR_VECTOR3D	sensors_io.h	/^} GSENSOR_VECTOR3D;$/;"	t	typeref:struct:__anon9
+GYROSCOPE	sensors_io.h	132;"	d
+GYROSCOPE_IOCTL_CLR_CALI	sensors_io.h	138;"	d
+GYROSCOPE_IOCTL_GET_CALI	sensors_io.h	137;"	d
+GYROSCOPE_IOCTL_INIT	sensors_io.h	133;"	d
+GYROSCOPE_IOCTL_READ_SENSORDATA	sensors_io.h	135;"	d
+GYROSCOPE_IOCTL_SET_CALI	sensors_io.h	136;"	d
+GYROSCOPE_IOCTL_SMT_DATA	sensors_io.h	134;"	d
+GetHDOEDecimator	misc.c	/^int16 GetHDOEDecimator(int64_t* time, int16* hdoe_interval)$/;"	f
+GetInterval	Measure.c	/^int16 GetInterval($/;"	f
+GetMagneticVector	Measure.c	/^int16 GetMagneticVector($/;"	f
+HEADER_SIZE	FileIO.h	35;"	d
+HFLUCV_HREF	AKCompass.h	/^	int16vec	HFLUCV_HREF[CSPEC_NUM_FORMATION];$/;"	m	struct:_AKSCPRMS
+HFLUCV_TH	AKCompass.h	50;"	d
+HSUC_HBASE	AKCompass.h	/^	int32vec	HSUC_HBASE[CSPEC_NUM_FORMATION];$/;"	m	struct:_AKSCPRMS
+HSUC_HDST	AKCompass.h	/^	AKSC_HDST		HSUC_HDST[CSPEC_NUM_FORMATION];$/;"	m	struct:_AKSCPRMS
+HSUC_HO	AKCompass.h	/^	int16vec	HSUC_HO[CSPEC_NUM_FORMATION];$/;"	m	struct:_AKSCPRMS
+HTH	libSmartCompass/AKHDOE.h	/^	void**			HTH;						\/\/ [AKSC_NUM_HCOND][AKSC_MAX_HDOE_LEVEL]$/;"	m	struct:_AKSC_HDOEVAR
+HTHHR	libSmartCompass/AKHDOE.h	/^	void**			HTHHR;						\/\/ [AKSC_NUM_HCOND or 1][AKSC_MAX_HDOE_LEVEL or 1]$/;"	m	struct:_AKSC_HDOEVAR
+I16MATRIX	libSmartCompass/AKMDevice.h	/^} I16MATRIX;$/;"	t	typeref:union:_I16MATRIX
+I16QUAT	libSmartCompass/AKMDevice.h	/^} I16QUAT;$/;"	t	typeref:union:_I16QUAT
+I32MATRIX	libSmartCompass/AKMDevice.h	/^} I32MATRIX;$/;"	t	typeref:union:_I32MATRIX
+I32MUL	libSmartCompass/AKMDevice.h	31;"	d
+I32MUL	libSmartCompass/AKMDevice.h	34;"	d
+InitAKSCPRMS	Measure.c	/^void InitAKSCPRMS(AKSCPRMS* prms)$/;"	f
+Init_Measure	Measure.c	/^int16 Init_Measure(AKSCPRMS* prms)$/;"	f
+KEYNAME_SIZE	FileIO.h	34;"	d
+LOCAL_C_INCLUDES	Android.mk	/^LOCAL_C_INCLUDES := \\$/;"	m
+LOCAL_FORCE_STATIC_EXECUTABLE	Android.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE := false$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE  := akmd09916_6d$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE  := akmd8963$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE  := akmd8975$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := eng$/;"	m
+LOCAL_MULTILIB	Android.mk	/^LOCAL_MULTILIB :=64$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := libc libm libutils libcutils$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES:= \\$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES :=$/;"	m
+LOG_TAG	AKMLog.h	30;"	d
+LOG_TAG	AKMLog.h	31;"	d
+LoadAccSTDEV	FileIO.c	/^int16 LoadAccSTDEV(const char* path, double *x, double *y, double *z)$/;"	f
+LoadDouble	FileIO.c	/^int16 LoadDouble(FILE * fp, const char *lpKeyName, double *val)$/;"	f
+LoadInt	FileIO.c	/^int16 LoadInt(FILE * fp, const char *lpKeyName, int *val)$/;"	f
+LoadInt16vec	FileIO.c	/^int16 LoadInt16vec(FILE * fp, const char *lpKeyName, int16vec * vec)$/;"	f
+LoadInt32vec	FileIO.c	/^int16 LoadInt32vec(FILE * fp, const char *lpKeyName, int32vec * vec)$/;"	f
+LoadPDC	FileIO.c	/^int16 LoadPDC(AKSCPRMS* prms)$/;"	f
+LoadParameters	FileIO.c	/^int16 LoadParameters(AKSCPRMS * prms)$/;"	f
+MAG_ACQ_FLAG_POS	Measure.c	37;"	d	file:
+MAG_AKM09911	CustomerSpec.h	67;"	d
+MAG_AKM09916	CustomerSpec.h	68;"	d
+MAG_DATA_FLAG	AKMD_Driver.h	153;"	d
+MAG_DATA_READY	AKMD_Driver.h	158;"	d
+MAG_FILTER_H	stable_checking.h	2;"	d
+MAG_INT_FLAG_POS	Measure.c	42;"	d	file:
+MAG_MES_FLAG_POS	Measure.c	41;"	d	file:
+MMC31XX_IOC_READ	sensors_io.h	101;"	d
+MMC31XX_IOC_READXYZ	sensors_io.h	102;"	d
+MMC31XX_IOC_RESET	sensors_io.h	100;"	d
+MMC31XX_IOC_RM	sensors_io.h	93;"	d
+MMC31XX_IOC_RRM	sensors_io.h	94;"	d
+MMC31XX_IOC_SET	sensors_io.h	99;"	d
+MMC31XX_IOC_TM	sensors_io.h	98;"	d
+MODE	DispMessage.h	/^} MODE;$/;"	t	typeref:enum:_MODE
+MODE_ERROR	DispMessage.h	/^	MODE_ERROR,					\/*!< Error *\/$/;"	e	enum:_MODE
+MODE_FST	DispMessage.h	/^	MODE_FST,					\/*!< On board function test *\/$/;"	e	enum:_MODE
+MODE_MeasureSNG	DispMessage.h	/^	MODE_MeasureSNG,			\/*!< Measurement *\/$/;"	e	enum:_MODE
+MODE_OffsetCalibration	DispMessage.h	/^	MODE_OffsetCalibration,		\/*!< Offset calibration *\/$/;"	e	enum:_MODE
+MODE_Quit	DispMessage.h	/^	MODE_Quit					\/*!< Quit *\/$/;"	e	enum:_MODE
+MSENSOR	sensors_io.h	55;"	d
+MSENSOR_IOCTL_INIT	sensors_io.h	56;"	d
+MSENSOR_IOCTL_READ_CALIDATA	sensors_io.h	60;"	d
+MSENSOR_IOCTL_READ_CHIPINFO	sensors_io.h	57;"	d
+MSENSOR_IOCTL_READ_CONTROL	sensors_io.h	61;"	d
+MSENSOR_IOCTL_READ_FACTORY_SENSORDATA	sensors_io.h	67;"	d
+MSENSOR_IOCTL_READ_POSTUREDATA	sensors_io.h	59;"	d
+MSENSOR_IOCTL_READ_SENSORDATA	sensors_io.h	58;"	d
+MSENSOR_IOCTL_SENSOR_ENABLE	sensors_io.h	66;"	d
+MSENSOR_IOCTL_SET_CALIDATA	sensors_io.h	65;"	d
+MSENSOR_IOCTL_SET_CONTROL	sensors_io.h	62;"	d
+MSENSOR_IOCTL_SET_MODE	sensors_io.h	63;"	d
+MSENSOR_IOCTL_SET_POSTURE	sensors_io.h	64;"	d
+MSENSOR_NAME	AKMD_Driver.c	31;"	d	file:
+MeasureSNGLoop	Measure.c	/^void MeasureSNGLoop(AKSCPRMS* prms)$/;"	f
+Menu_Main	DispMessage.c	/^MODE Menu_Main(void)$/;"	f
+OPEN_FORM	Measure.h	/^typedef int16(*OPEN_FORM)(void);$/;"	t
+OPMODE_CONSOLE	AKCommon.h	39;"	d
+OptParse	main.c	/^int OptParse($/;"	f
+PAT1	AKCompass.h	/^	PAT1,$/;"	e	enum:_AKMD_PATNO
+PAT2	AKCompass.h	/^	PAT2,$/;"	e	enum:_AKMD_PATNO
+PAT3	AKCompass.h	/^	PAT3,$/;"	e	enum:_AKMD_PATNO
+PAT4	AKCompass.h	/^	PAT4,$/;"	e	enum:_AKMD_PATNO
+PAT5	AKCompass.h	/^	PAT5,$/;"	e	enum:_AKMD_PATNO
+PAT6	AKCompass.h	/^	PAT6,$/;"	e	enum:_AKMD_PATNO
+PAT7	AKCompass.h	/^	PAT7,$/;"	e	enum:_AKMD_PATNO
+PAT8	AKCompass.h	/^	PAT8$/;"	e	enum:_AKMD_PATNO
+PAT_INVALID	AKCompass.h	/^	PAT_INVALID = 0,$/;"	e	enum:_AKMD_PATNO
+PDC_SIZE	AKCompass.h	51;"	d
+PG_filter	AKCompass.h	/^	int16			PG_filter;$/;"	m	struct:_AKSCPRMS
+RWBUF_SIZE	AKMD_Driver.h	49;"	d
+ReadFUSEROM	Measure.c	/^int16 ReadFUSEROM(AKSCPRMS* prms)$/;"	f
+RegisterFormClass	Measure.c	/^void RegisterFormClass(FORM_CLASS* pt)$/;"	f
+SENSORS_IO_H	sensors_io.h	23;"	d
+SENSOR_DATA	sensors_io.h	/^}SENSOR_DATA;$/;"	t	typeref:struct:__anon10
+SENSOR_DATA_SIZE	AKMD_Driver.h	48;"	d
+SETTING_FLAG_POS	Measure.c	43;"	d	file:
+SMARTCOMPASS_LIB	Android.mk	/^SMARTCOMPASS_LIB=libSmartCompass$/;"	m
+STATIC	libSmartCompass/AKConfigure.h	41;"	d
+STATIC	libSmartCompass/AKConfigure.h	43;"	d
+STDEV_THRESHOLD_ACC_X	stable_checking.c	8;"	d	file:
+STDEV_THRESHOLD_ACC_Y	stable_checking.c	9;"	d	file:
+STDEV_THRESHOLD_ACC_Z	stable_checking.c	10;"	d	file:
+STD_THRESHOLD	yaw_average.c	7;"	d	file:
+SaveDouble	FileIO.c	/^int16 SaveDouble(FILE * fp, const char *lpKeyName, const double val)$/;"	f
+SaveInt	FileIO.c	/^int16 SaveInt(FILE * fp, const char *lpKeyName, const int val)$/;"	f
+SaveInt16vec	FileIO.c	/^int16 SaveInt16vec(FILE * fp, const char *lpKeyName,$/;"	f
+SaveInt32vec	FileIO.c	/^int16 SaveInt32vec(FILE * fp, const char *lpKeyName,$/;"	f
+SaveParameters	FileIO.c	/^int16 SaveParameters(AKSCPRMS * prms)$/;"	f
+SetDefaultPRMS	Measure.c	/^void SetDefaultPRMS(AKSCPRMS* prms)$/;"	f
+SetLoopTime	Measure.c	/^int SetLoopTime($/;"	f
+SimpleCalibration	Measure.c	/^int16 SimpleCalibration(AKSCPRMS* prms)$/;"	f
+SortArrayFloat	filter_common.c	/^void SortArrayFloat(float data[], const int num)$/;"	f
+SortArrayInt	filter_common.c	/^void SortArrayInt(int data[], const int num)$/;"	f
+TEST_DATA	FST_AK09911.c	/^TEST_DATA(const char testno[],$/;"	f
+TEST_DATA	FST_AK8963.c	/^TEST_DATA(const char testno[],$/;"	f
+TEST_DATA	FST_AK8975.c	/^TEST_DATA(const char testno[],$/;"	f
+THETAFILTER_SCALE	AKCompass.h	49;"	d
+TLIMIT_HI_ASAX	FST_AK09911.c	171;"	d	file:
+TLIMIT_HI_ASAX	FST_AK8963.c	96;"	d	file:
+TLIMIT_HI_ASAX	FST_AK8975.c	91;"	d	file:
+TLIMIT_HI_ASAX_09911	FST_AK09911.c	46;"	d	file:
+TLIMIT_HI_ASAY	FST_AK09911.c	175;"	d	file:
+TLIMIT_HI_ASAY	FST_AK8963.c	100;"	d	file:
+TLIMIT_HI_ASAY	FST_AK8975.c	95;"	d	file:
+TLIMIT_HI_ASAY_09911	FST_AK09911.c	50;"	d	file:
+TLIMIT_HI_ASAZ	FST_AK09911.c	179;"	d	file:
+TLIMIT_HI_ASAZ	FST_AK8963.c	104;"	d	file:
+TLIMIT_HI_ASAZ	FST_AK8975.c	99;"	d	file:
+TLIMIT_HI_ASAZ_09911	FST_AK09911.c	54;"	d	file:
+TLIMIT_HI_RST_ASTC	FST_AK09911.c	161;"	d	file:
+TLIMIT_HI_RST_ASTC	FST_AK8963.c	86;"	d	file:
+TLIMIT_HI_RST_ASTC	FST_AK8975.c	81;"	d	file:
+TLIMIT_HI_RST_CNTL	FST_AK8975.c	77;"	d	file:
+TLIMIT_HI_RST_CNTL1	FST_AK09911.c	152;"	d	file:
+TLIMIT_HI_RST_CNTL1	FST_AK8963.c	77;"	d	file:
+TLIMIT_HI_RST_CNTL2	FST_AK09911.c	156;"	d	file:
+TLIMIT_HI_RST_CNTL2	FST_AK8963.c	81;"	d	file:
+TLIMIT_HI_RST_HXH	FST_AK09911.c	128;"	d	file:
+TLIMIT_HI_RST_HXH	FST_AK8963.c	53;"	d	file:
+TLIMIT_HI_RST_HXH	FST_AK8975.c	53;"	d	file:
+TLIMIT_HI_RST_HXL	FST_AK09911.c	124;"	d	file:
+TLIMIT_HI_RST_HXL	FST_AK8963.c	49;"	d	file:
+TLIMIT_HI_RST_HXL	FST_AK8975.c	49;"	d	file:
+TLIMIT_HI_RST_HYH	FST_AK09911.c	136;"	d	file:
+TLIMIT_HI_RST_HYH	FST_AK8963.c	61;"	d	file:
+TLIMIT_HI_RST_HYH	FST_AK8975.c	61;"	d	file:
+TLIMIT_HI_RST_HYL	FST_AK09911.c	132;"	d	file:
+TLIMIT_HI_RST_HYL	FST_AK8963.c	57;"	d	file:
+TLIMIT_HI_RST_HYL	FST_AK8975.c	57;"	d	file:
+TLIMIT_HI_RST_HZH	FST_AK09911.c	144;"	d	file:
+TLIMIT_HI_RST_HZH	FST_AK8963.c	69;"	d	file:
+TLIMIT_HI_RST_HZH	FST_AK8975.c	69;"	d	file:
+TLIMIT_HI_RST_HZL	FST_AK09911.c	140;"	d	file:
+TLIMIT_HI_RST_HZL	FST_AK8963.c	65;"	d	file:
+TLIMIT_HI_RST_HZL	FST_AK8975.c	65;"	d	file:
+TLIMIT_HI_RST_I2CDIS_USEI2C	FST_AK09911.c	165;"	d	file:
+TLIMIT_HI_RST_I2CDIS_USEI2C	FST_AK8963.c	90;"	d	file:
+TLIMIT_HI_RST_I2CDIS_USEI2C	FST_AK8975.c	85;"	d	file:
+TLIMIT_HI_RST_I2CDIS_USESPI	FST_AK09911.c	167;"	d	file:
+TLIMIT_HI_RST_I2CDIS_USESPI	FST_AK8963.c	92;"	d	file:
+TLIMIT_HI_RST_I2CDIS_USESPI	FST_AK8975.c	87;"	d	file:
+TLIMIT_HI_RST_INFO	FST_AK09911.c	116;"	d	file:
+TLIMIT_HI_RST_INFO	FST_AK8963.c	41;"	d	file:
+TLIMIT_HI_RST_INFO	FST_AK8975.c	41;"	d	file:
+TLIMIT_HI_RST_ST1	FST_AK09911.c	120;"	d	file:
+TLIMIT_HI_RST_ST1	FST_AK8963.c	45;"	d	file:
+TLIMIT_HI_RST_ST1	FST_AK8975.c	45;"	d	file:
+TLIMIT_HI_RST_ST2	FST_AK09911.c	148;"	d	file:
+TLIMIT_HI_RST_ST2	FST_AK8963.c	73;"	d	file:
+TLIMIT_HI_RST_ST2	FST_AK8975.c	73;"	d	file:
+TLIMIT_HI_RST_WIA	FST_AK09911.c	112;"	d	file:
+TLIMIT_HI_RST_WIA	FST_AK8963.c	37;"	d	file:
+TLIMIT_HI_RST_WIA	FST_AK8975.c	37;"	d	file:
+TLIMIT_HI_RST_WIA1_09911	FST_AK09911.c	37;"	d	file:
+TLIMIT_HI_RST_WIA2_09911	FST_AK09911.c	41;"	d	file:
+TLIMIT_HI_SLF_RVHX	FST_AK09911.c	220;"	d	file:
+TLIMIT_HI_SLF_RVHX	FST_AK8963.c	145;"	d	file:
+TLIMIT_HI_SLF_RVHX	FST_AK8975.c	138;"	d	file:
+TLIMIT_HI_SLF_RVHX_09911	FST_AK09911.c	89;"	d	file:
+TLIMIT_HI_SLF_RVHY	FST_AK09911.c	225;"	d	file:
+TLIMIT_HI_SLF_RVHY	FST_AK8963.c	150;"	d	file:
+TLIMIT_HI_SLF_RVHY	FST_AK8975.c	143;"	d	file:
+TLIMIT_HI_SLF_RVHY_09911	FST_AK09911.c	94;"	d	file:
+TLIMIT_HI_SLF_RVHZ	FST_AK09911.c	230;"	d	file:
+TLIMIT_HI_SLF_RVHZ	FST_AK8963.c	155;"	d	file:
+TLIMIT_HI_SLF_RVHZ	FST_AK8975.c	148;"	d	file:
+TLIMIT_HI_SLF_RVHZ_09911	FST_AK09911.c	99;"	d	file:
+TLIMIT_HI_SLF_ST1	FST_AK09911.c	215;"	d	file:
+TLIMIT_HI_SLF_ST1	FST_AK8963.c	140;"	d	file:
+TLIMIT_HI_SLF_ST1	FST_AK8975.c	133;"	d	file:
+TLIMIT_HI_SLF_ST1_09911	FST_AK09911.c	84;"	d	file:
+TLIMIT_HI_SLF_ST2	FST_AK8975.c	153;"	d	file:
+TLIMIT_HI_SLF_ST2_09911	FST_AK09911.c	104;"	d	file:
+TLIMIT_HI_SLF_ST2_14BIT	FST_AK09911.c	235;"	d	file:
+TLIMIT_HI_SLF_ST2_14BIT	FST_AK8963.c	160;"	d	file:
+TLIMIT_HI_SLF_ST2_16BIT	FST_AK09911.c	237;"	d	file:
+TLIMIT_HI_SLF_ST2_16BIT	FST_AK8963.c	162;"	d	file:
+TLIMIT_HI_SNG_HX	FST_AK09911.c	193;"	d	file:
+TLIMIT_HI_SNG_HX	FST_AK8963.c	118;"	d	file:
+TLIMIT_HI_SNG_HX	FST_AK8975.c	113;"	d	file:
+TLIMIT_HI_SNG_HX_09911	FST_AK09911.c	64;"	d	file:
+TLIMIT_HI_SNG_HY	FST_AK09911.c	198;"	d	file:
+TLIMIT_HI_SNG_HY	FST_AK8963.c	123;"	d	file:
+TLIMIT_HI_SNG_HY	FST_AK8975.c	118;"	d	file:
+TLIMIT_HI_SNG_HY_09911	FST_AK09911.c	69;"	d	file:
+TLIMIT_HI_SNG_HZ	FST_AK09911.c	203;"	d	file:
+TLIMIT_HI_SNG_HZ	FST_AK8963.c	128;"	d	file:
+TLIMIT_HI_SNG_HZ	FST_AK8975.c	123;"	d	file:
+TLIMIT_HI_SNG_HZ_09911	FST_AK09911.c	74;"	d	file:
+TLIMIT_HI_SNG_ST1	FST_AK09911.c	188;"	d	file:
+TLIMIT_HI_SNG_ST1	FST_AK8963.c	113;"	d	file:
+TLIMIT_HI_SNG_ST1	FST_AK8975.c	108;"	d	file:
+TLIMIT_HI_SNG_ST1_09911	FST_AK09911.c	59;"	d	file:
+TLIMIT_HI_SNG_ST2	FST_AK8975.c	128;"	d	file:
+TLIMIT_HI_SNG_ST2_09911	FST_AK09911.c	79;"	d	file:
+TLIMIT_HI_SNG_ST2_14BIT	FST_AK09911.c	208;"	d	file:
+TLIMIT_HI_SNG_ST2_14BIT	FST_AK8963.c	133;"	d	file:
+TLIMIT_HI_SNG_ST2_16BIT	FST_AK09911.c	210;"	d	file:
+TLIMIT_HI_SNG_ST2_16BIT	FST_AK8963.c	135;"	d	file:
+TLIMIT_HI_WR_CNTL	FST_AK8975.c	103;"	d	file:
+TLIMIT_HI_WR_CNTL1	FST_AK09911.c	183;"	d	file:
+TLIMIT_HI_WR_CNTL1	FST_AK8963.c	108;"	d	file:
+TLIMIT_LO_ASAX	FST_AK09911.c	170;"	d	file:
+TLIMIT_LO_ASAX	FST_AK8963.c	95;"	d	file:
+TLIMIT_LO_ASAX	FST_AK8975.c	90;"	d	file:
+TLIMIT_LO_ASAX_09911	FST_AK09911.c	45;"	d	file:
+TLIMIT_LO_ASAY	FST_AK09911.c	174;"	d	file:
+TLIMIT_LO_ASAY	FST_AK8963.c	99;"	d	file:
+TLIMIT_LO_ASAY	FST_AK8975.c	94;"	d	file:
+TLIMIT_LO_ASAY_09911	FST_AK09911.c	49;"	d	file:
+TLIMIT_LO_ASAZ	FST_AK09911.c	178;"	d	file:
+TLIMIT_LO_ASAZ	FST_AK8963.c	103;"	d	file:
+TLIMIT_LO_ASAZ	FST_AK8975.c	98;"	d	file:
+TLIMIT_LO_ASAZ_09911	FST_AK09911.c	53;"	d	file:
+TLIMIT_LO_RST_ASTC	FST_AK09911.c	160;"	d	file:
+TLIMIT_LO_RST_ASTC	FST_AK8963.c	85;"	d	file:
+TLIMIT_LO_RST_ASTC	FST_AK8975.c	80;"	d	file:
+TLIMIT_LO_RST_CNTL	FST_AK8975.c	76;"	d	file:
+TLIMIT_LO_RST_CNTL1	FST_AK09911.c	151;"	d	file:
+TLIMIT_LO_RST_CNTL1	FST_AK8963.c	76;"	d	file:
+TLIMIT_LO_RST_CNTL2	FST_AK09911.c	155;"	d	file:
+TLIMIT_LO_RST_CNTL2	FST_AK8963.c	80;"	d	file:
+TLIMIT_LO_RST_HXH	FST_AK09911.c	127;"	d	file:
+TLIMIT_LO_RST_HXH	FST_AK8963.c	52;"	d	file:
+TLIMIT_LO_RST_HXH	FST_AK8975.c	52;"	d	file:
+TLIMIT_LO_RST_HXL	FST_AK09911.c	123;"	d	file:
+TLIMIT_LO_RST_HXL	FST_AK8963.c	48;"	d	file:
+TLIMIT_LO_RST_HXL	FST_AK8975.c	48;"	d	file:
+TLIMIT_LO_RST_HYH	FST_AK09911.c	135;"	d	file:
+TLIMIT_LO_RST_HYH	FST_AK8963.c	60;"	d	file:
+TLIMIT_LO_RST_HYH	FST_AK8975.c	60;"	d	file:
+TLIMIT_LO_RST_HYL	FST_AK09911.c	131;"	d	file:
+TLIMIT_LO_RST_HYL	FST_AK8963.c	56;"	d	file:
+TLIMIT_LO_RST_HYL	FST_AK8975.c	56;"	d	file:
+TLIMIT_LO_RST_HZH	FST_AK09911.c	143;"	d	file:
+TLIMIT_LO_RST_HZH	FST_AK8963.c	68;"	d	file:
+TLIMIT_LO_RST_HZH	FST_AK8975.c	68;"	d	file:
+TLIMIT_LO_RST_HZL	FST_AK09911.c	139;"	d	file:
+TLIMIT_LO_RST_HZL	FST_AK8963.c	64;"	d	file:
+TLIMIT_LO_RST_HZL	FST_AK8975.c	64;"	d	file:
+TLIMIT_LO_RST_I2CDIS_USEI2C	FST_AK09911.c	164;"	d	file:
+TLIMIT_LO_RST_I2CDIS_USEI2C	FST_AK8963.c	89;"	d	file:
+TLIMIT_LO_RST_I2CDIS_USEI2C	FST_AK8975.c	84;"	d	file:
+TLIMIT_LO_RST_I2CDIS_USESPI	FST_AK09911.c	166;"	d	file:
+TLIMIT_LO_RST_I2CDIS_USESPI	FST_AK8963.c	91;"	d	file:
+TLIMIT_LO_RST_I2CDIS_USESPI	FST_AK8975.c	86;"	d	file:
+TLIMIT_LO_RST_INFO	FST_AK09911.c	115;"	d	file:
+TLIMIT_LO_RST_INFO	FST_AK8963.c	40;"	d	file:
+TLIMIT_LO_RST_INFO	FST_AK8975.c	40;"	d	file:
+TLIMIT_LO_RST_ST1	FST_AK09911.c	119;"	d	file:
+TLIMIT_LO_RST_ST1	FST_AK8963.c	44;"	d	file:
+TLIMIT_LO_RST_ST1	FST_AK8975.c	44;"	d	file:
+TLIMIT_LO_RST_ST2	FST_AK09911.c	147;"	d	file:
+TLIMIT_LO_RST_ST2	FST_AK8963.c	72;"	d	file:
+TLIMIT_LO_RST_ST2	FST_AK8975.c	72;"	d	file:
+TLIMIT_LO_RST_WIA	FST_AK09911.c	111;"	d	file:
+TLIMIT_LO_RST_WIA	FST_AK8963.c	36;"	d	file:
+TLIMIT_LO_RST_WIA	FST_AK8975.c	36;"	d	file:
+TLIMIT_LO_RST_WIA1_09911	FST_AK09911.c	36;"	d	file:
+TLIMIT_LO_RST_WIA2_09911	FST_AK09911.c	40;"	d	file:
+TLIMIT_LO_SLF_RVHX	FST_AK09911.c	219;"	d	file:
+TLIMIT_LO_SLF_RVHX	FST_AK8963.c	144;"	d	file:
+TLIMIT_LO_SLF_RVHX	FST_AK8975.c	137;"	d	file:
+TLIMIT_LO_SLF_RVHX_09911	FST_AK09911.c	88;"	d	file:
+TLIMIT_LO_SLF_RVHY	FST_AK09911.c	224;"	d	file:
+TLIMIT_LO_SLF_RVHY	FST_AK8963.c	149;"	d	file:
+TLIMIT_LO_SLF_RVHY	FST_AK8975.c	142;"	d	file:
+TLIMIT_LO_SLF_RVHY_09911	FST_AK09911.c	93;"	d	file:
+TLIMIT_LO_SLF_RVHZ	FST_AK09911.c	229;"	d	file:
+TLIMIT_LO_SLF_RVHZ	FST_AK8963.c	154;"	d	file:
+TLIMIT_LO_SLF_RVHZ	FST_AK8975.c	147;"	d	file:
+TLIMIT_LO_SLF_RVHZ_09911	FST_AK09911.c	98;"	d	file:
+TLIMIT_LO_SLF_ST1	FST_AK09911.c	214;"	d	file:
+TLIMIT_LO_SLF_ST1	FST_AK8963.c	139;"	d	file:
+TLIMIT_LO_SLF_ST1	FST_AK8975.c	132;"	d	file:
+TLIMIT_LO_SLF_ST1_09911	FST_AK09911.c	83;"	d	file:
+TLIMIT_LO_SLF_ST2	FST_AK8975.c	152;"	d	file:
+TLIMIT_LO_SLF_ST2_09911	FST_AK09911.c	103;"	d	file:
+TLIMIT_LO_SLF_ST2_14BIT	FST_AK09911.c	234;"	d	file:
+TLIMIT_LO_SLF_ST2_14BIT	FST_AK8963.c	159;"	d	file:
+TLIMIT_LO_SLF_ST2_16BIT	FST_AK09911.c	236;"	d	file:
+TLIMIT_LO_SLF_ST2_16BIT	FST_AK8963.c	161;"	d	file:
+TLIMIT_LO_SNG_HX	FST_AK09911.c	192;"	d	file:
+TLIMIT_LO_SNG_HX	FST_AK8963.c	117;"	d	file:
+TLIMIT_LO_SNG_HX	FST_AK8975.c	112;"	d	file:
+TLIMIT_LO_SNG_HX_09911	FST_AK09911.c	63;"	d	file:
+TLIMIT_LO_SNG_HY	FST_AK09911.c	197;"	d	file:
+TLIMIT_LO_SNG_HY	FST_AK8963.c	122;"	d	file:
+TLIMIT_LO_SNG_HY	FST_AK8975.c	117;"	d	file:
+TLIMIT_LO_SNG_HY_09911	FST_AK09911.c	68;"	d	file:
+TLIMIT_LO_SNG_HZ	FST_AK09911.c	202;"	d	file:
+TLIMIT_LO_SNG_HZ	FST_AK8963.c	127;"	d	file:
+TLIMIT_LO_SNG_HZ	FST_AK8975.c	122;"	d	file:
+TLIMIT_LO_SNG_HZ_09911	FST_AK09911.c	73;"	d	file:
+TLIMIT_LO_SNG_ST1	FST_AK09911.c	187;"	d	file:
+TLIMIT_LO_SNG_ST1	FST_AK8963.c	112;"	d	file:
+TLIMIT_LO_SNG_ST1	FST_AK8975.c	107;"	d	file:
+TLIMIT_LO_SNG_ST1_09911	FST_AK09911.c	58;"	d	file:
+TLIMIT_LO_SNG_ST2	FST_AK8975.c	127;"	d	file:
+TLIMIT_LO_SNG_ST2_09911	FST_AK09911.c	78;"	d	file:
+TLIMIT_LO_SNG_ST2_14BIT	FST_AK09911.c	207;"	d	file:
+TLIMIT_LO_SNG_ST2_14BIT	FST_AK8963.c	132;"	d	file:
+TLIMIT_LO_SNG_ST2_16BIT	FST_AK09911.c	209;"	d	file:
+TLIMIT_LO_SNG_ST2_16BIT	FST_AK8963.c	134;"	d	file:
+TLIMIT_LO_WR_CNTL	FST_AK8975.c	102;"	d	file:
+TLIMIT_LO_WR_CNTL1	FST_AK09911.c	182;"	d	file:
+TLIMIT_LO_WR_CNTL1	FST_AK8963.c	107;"	d	file:
+TLIMIT_NO_ASAX	FST_AK09911.c	168;"	d	file:
+TLIMIT_NO_ASAX	FST_AK8963.c	93;"	d	file:
+TLIMIT_NO_ASAX	FST_AK8975.c	88;"	d	file:
+TLIMIT_NO_ASAX_09911	FST_AK09911.c	43;"	d	file:
+TLIMIT_NO_ASAY	FST_AK09911.c	172;"	d	file:
+TLIMIT_NO_ASAY	FST_AK8963.c	97;"	d	file:
+TLIMIT_NO_ASAY	FST_AK8975.c	92;"	d	file:
+TLIMIT_NO_ASAY_09911	FST_AK09911.c	47;"	d	file:
+TLIMIT_NO_ASAZ	FST_AK09911.c	176;"	d	file:
+TLIMIT_NO_ASAZ	FST_AK8963.c	101;"	d	file:
+TLIMIT_NO_ASAZ	FST_AK8975.c	96;"	d	file:
+TLIMIT_NO_ASAZ_09911	FST_AK09911.c	51;"	d	file:
+TLIMIT_NO_RST_ASTC	FST_AK09911.c	158;"	d	file:
+TLIMIT_NO_RST_ASTC	FST_AK8963.c	83;"	d	file:
+TLIMIT_NO_RST_ASTC	FST_AK8975.c	78;"	d	file:
+TLIMIT_NO_RST_CNTL	FST_AK8975.c	74;"	d	file:
+TLIMIT_NO_RST_CNTL1	FST_AK09911.c	149;"	d	file:
+TLIMIT_NO_RST_CNTL1	FST_AK8963.c	74;"	d	file:
+TLIMIT_NO_RST_CNTL2	FST_AK09911.c	153;"	d	file:
+TLIMIT_NO_RST_CNTL2	FST_AK8963.c	78;"	d	file:
+TLIMIT_NO_RST_HXH	FST_AK09911.c	125;"	d	file:
+TLIMIT_NO_RST_HXH	FST_AK8963.c	50;"	d	file:
+TLIMIT_NO_RST_HXH	FST_AK8975.c	50;"	d	file:
+TLIMIT_NO_RST_HXL	FST_AK09911.c	121;"	d	file:
+TLIMIT_NO_RST_HXL	FST_AK8963.c	46;"	d	file:
+TLIMIT_NO_RST_HXL	FST_AK8975.c	46;"	d	file:
+TLIMIT_NO_RST_HYH	FST_AK09911.c	133;"	d	file:
+TLIMIT_NO_RST_HYH	FST_AK8963.c	58;"	d	file:
+TLIMIT_NO_RST_HYH	FST_AK8975.c	58;"	d	file:
+TLIMIT_NO_RST_HYL	FST_AK09911.c	129;"	d	file:
+TLIMIT_NO_RST_HYL	FST_AK8963.c	54;"	d	file:
+TLIMIT_NO_RST_HYL	FST_AK8975.c	54;"	d	file:
+TLIMIT_NO_RST_HZH	FST_AK09911.c	141;"	d	file:
+TLIMIT_NO_RST_HZH	FST_AK8963.c	66;"	d	file:
+TLIMIT_NO_RST_HZH	FST_AK8975.c	66;"	d	file:
+TLIMIT_NO_RST_HZL	FST_AK09911.c	137;"	d	file:
+TLIMIT_NO_RST_HZL	FST_AK8963.c	62;"	d	file:
+TLIMIT_NO_RST_HZL	FST_AK8975.c	62;"	d	file:
+TLIMIT_NO_RST_I2CDIS	FST_AK09911.c	162;"	d	file:
+TLIMIT_NO_RST_I2CDIS	FST_AK8963.c	87;"	d	file:
+TLIMIT_NO_RST_I2CDIS	FST_AK8975.c	82;"	d	file:
+TLIMIT_NO_RST_INFO	FST_AK09911.c	113;"	d	file:
+TLIMIT_NO_RST_INFO	FST_AK8963.c	38;"	d	file:
+TLIMIT_NO_RST_INFO	FST_AK8975.c	38;"	d	file:
+TLIMIT_NO_RST_ST1	FST_AK09911.c	117;"	d	file:
+TLIMIT_NO_RST_ST1	FST_AK8963.c	42;"	d	file:
+TLIMIT_NO_RST_ST1	FST_AK8975.c	42;"	d	file:
+TLIMIT_NO_RST_ST2	FST_AK09911.c	145;"	d	file:
+TLIMIT_NO_RST_ST2	FST_AK8963.c	70;"	d	file:
+TLIMIT_NO_RST_ST2	FST_AK8975.c	70;"	d	file:
+TLIMIT_NO_RST_WIA	FST_AK09911.c	109;"	d	file:
+TLIMIT_NO_RST_WIA	FST_AK8963.c	34;"	d	file:
+TLIMIT_NO_RST_WIA	FST_AK8975.c	34;"	d	file:
+TLIMIT_NO_RST_WIA1_09911	FST_AK09911.c	34;"	d	file:
+TLIMIT_NO_RST_WIA2_09911	FST_AK09911.c	38;"	d	file:
+TLIMIT_NO_SLF_RVHX	FST_AK09911.c	217;"	d	file:
+TLIMIT_NO_SLF_RVHX	FST_AK8963.c	142;"	d	file:
+TLIMIT_NO_SLF_RVHX	FST_AK8975.c	135;"	d	file:
+TLIMIT_NO_SLF_RVHX_09911	FST_AK09911.c	86;"	d	file:
+TLIMIT_NO_SLF_RVHY	FST_AK09911.c	222;"	d	file:
+TLIMIT_NO_SLF_RVHY	FST_AK8963.c	147;"	d	file:
+TLIMIT_NO_SLF_RVHY	FST_AK8975.c	140;"	d	file:
+TLIMIT_NO_SLF_RVHY_09911	FST_AK09911.c	91;"	d	file:
+TLIMIT_NO_SLF_RVHZ	FST_AK09911.c	227;"	d	file:
+TLIMIT_NO_SLF_RVHZ	FST_AK8963.c	152;"	d	file:
+TLIMIT_NO_SLF_RVHZ	FST_AK8975.c	145;"	d	file:
+TLIMIT_NO_SLF_RVHZ_09911	FST_AK09911.c	96;"	d	file:
+TLIMIT_NO_SLF_ST1	FST_AK09911.c	212;"	d	file:
+TLIMIT_NO_SLF_ST1	FST_AK8963.c	137;"	d	file:
+TLIMIT_NO_SLF_ST1	FST_AK8975.c	130;"	d	file:
+TLIMIT_NO_SLF_ST1_09911	FST_AK09911.c	81;"	d	file:
+TLIMIT_NO_SLF_ST2	FST_AK09911.c	232;"	d	file:
+TLIMIT_NO_SLF_ST2	FST_AK8963.c	157;"	d	file:
+TLIMIT_NO_SLF_ST2	FST_AK8975.c	150;"	d	file:
+TLIMIT_NO_SLF_ST2_09911	FST_AK09911.c	101;"	d	file:
+TLIMIT_NO_SNG_HX	FST_AK09911.c	190;"	d	file:
+TLIMIT_NO_SNG_HX	FST_AK8963.c	115;"	d	file:
+TLIMIT_NO_SNG_HX	FST_AK8975.c	110;"	d	file:
+TLIMIT_NO_SNG_HX_09911	FST_AK09911.c	61;"	d	file:
+TLIMIT_NO_SNG_HY	FST_AK09911.c	195;"	d	file:
+TLIMIT_NO_SNG_HY	FST_AK8963.c	120;"	d	file:
+TLIMIT_NO_SNG_HY	FST_AK8975.c	115;"	d	file:
+TLIMIT_NO_SNG_HY_09911	FST_AK09911.c	66;"	d	file:
+TLIMIT_NO_SNG_HZ	FST_AK09911.c	200;"	d	file:
+TLIMIT_NO_SNG_HZ	FST_AK8963.c	125;"	d	file:
+TLIMIT_NO_SNG_HZ	FST_AK8975.c	120;"	d	file:
+TLIMIT_NO_SNG_HZ_09911	FST_AK09911.c	71;"	d	file:
+TLIMIT_NO_SNG_ST1	FST_AK09911.c	185;"	d	file:
+TLIMIT_NO_SNG_ST1	FST_AK8963.c	110;"	d	file:
+TLIMIT_NO_SNG_ST1	FST_AK8975.c	105;"	d	file:
+TLIMIT_NO_SNG_ST1_09911	FST_AK09911.c	56;"	d	file:
+TLIMIT_NO_SNG_ST2	FST_AK09911.c	205;"	d	file:
+TLIMIT_NO_SNG_ST2	FST_AK8963.c	130;"	d	file:
+TLIMIT_NO_SNG_ST2	FST_AK8975.c	125;"	d	file:
+TLIMIT_NO_SNG_ST2_09911	FST_AK09911.c	76;"	d	file:
+TLIMIT_NO_WR_CNTL	FST_AK8975.c	100;"	d	file:
+TLIMIT_NO_WR_CNTL1	FST_AK09911.c	180;"	d	file:
+TLIMIT_NO_WR_CNTL1	FST_AK8963.c	105;"	d	file:
+TLIMIT_TN_ASAX	FST_AK09911.c	169;"	d	file:
+TLIMIT_TN_ASAX	FST_AK8963.c	94;"	d	file:
+TLIMIT_TN_ASAX	FST_AK8975.c	89;"	d	file:
+TLIMIT_TN_ASAX_09911	FST_AK09911.c	44;"	d	file:
+TLIMIT_TN_ASAY	FST_AK09911.c	173;"	d	file:
+TLIMIT_TN_ASAY	FST_AK8963.c	98;"	d	file:
+TLIMIT_TN_ASAY	FST_AK8975.c	93;"	d	file:
+TLIMIT_TN_ASAY_09911	FST_AK09911.c	48;"	d	file:
+TLIMIT_TN_ASAZ	FST_AK09911.c	177;"	d	file:
+TLIMIT_TN_ASAZ	FST_AK8963.c	102;"	d	file:
+TLIMIT_TN_ASAZ	FST_AK8975.c	97;"	d	file:
+TLIMIT_TN_ASAZ_09911	FST_AK09911.c	52;"	d	file:
+TLIMIT_TN_REVISION	FST_AK09911.c	108;"	d	file:
+TLIMIT_TN_REVISION	FST_AK8963.c	33;"	d	file:
+TLIMIT_TN_REVISION	FST_AK8975.c	33;"	d	file:
+TLIMIT_TN_REVISION_09911	FST_AK09911.c	33;"	d	file:
+TLIMIT_TN_RST_ASTC	FST_AK09911.c	159;"	d	file:
+TLIMIT_TN_RST_ASTC	FST_AK8963.c	84;"	d	file:
+TLIMIT_TN_RST_ASTC	FST_AK8975.c	79;"	d	file:
+TLIMIT_TN_RST_CNTL	FST_AK8975.c	75;"	d	file:
+TLIMIT_TN_RST_CNTL1	FST_AK09911.c	150;"	d	file:
+TLIMIT_TN_RST_CNTL1	FST_AK8963.c	75;"	d	file:
+TLIMIT_TN_RST_CNTL2	FST_AK09911.c	154;"	d	file:
+TLIMIT_TN_RST_CNTL2	FST_AK8963.c	79;"	d	file:
+TLIMIT_TN_RST_HXH	FST_AK09911.c	126;"	d	file:
+TLIMIT_TN_RST_HXH	FST_AK8963.c	51;"	d	file:
+TLIMIT_TN_RST_HXH	FST_AK8975.c	51;"	d	file:
+TLIMIT_TN_RST_HXL	FST_AK09911.c	122;"	d	file:
+TLIMIT_TN_RST_HXL	FST_AK8963.c	47;"	d	file:
+TLIMIT_TN_RST_HXL	FST_AK8975.c	47;"	d	file:
+TLIMIT_TN_RST_HYH	FST_AK09911.c	134;"	d	file:
+TLIMIT_TN_RST_HYH	FST_AK8963.c	59;"	d	file:
+TLIMIT_TN_RST_HYH	FST_AK8975.c	59;"	d	file:
+TLIMIT_TN_RST_HYL	FST_AK09911.c	130;"	d	file:
+TLIMIT_TN_RST_HYL	FST_AK8963.c	55;"	d	file:
+TLIMIT_TN_RST_HYL	FST_AK8975.c	55;"	d	file:
+TLIMIT_TN_RST_HZH	FST_AK09911.c	142;"	d	file:
+TLIMIT_TN_RST_HZH	FST_AK8963.c	67;"	d	file:
+TLIMIT_TN_RST_HZH	FST_AK8975.c	67;"	d	file:
+TLIMIT_TN_RST_HZL	FST_AK09911.c	138;"	d	file:
+TLIMIT_TN_RST_HZL	FST_AK8963.c	63;"	d	file:
+TLIMIT_TN_RST_HZL	FST_AK8975.c	63;"	d	file:
+TLIMIT_TN_RST_I2CDIS	FST_AK09911.c	163;"	d	file:
+TLIMIT_TN_RST_I2CDIS	FST_AK8963.c	88;"	d	file:
+TLIMIT_TN_RST_I2CDIS	FST_AK8975.c	83;"	d	file:
+TLIMIT_TN_RST_INFO	FST_AK09911.c	114;"	d	file:
+TLIMIT_TN_RST_INFO	FST_AK8963.c	39;"	d	file:
+TLIMIT_TN_RST_INFO	FST_AK8975.c	39;"	d	file:
+TLIMIT_TN_RST_ST1	FST_AK09911.c	118;"	d	file:
+TLIMIT_TN_RST_ST1	FST_AK8963.c	43;"	d	file:
+TLIMIT_TN_RST_ST1	FST_AK8975.c	43;"	d	file:
+TLIMIT_TN_RST_ST2	FST_AK09911.c	146;"	d	file:
+TLIMIT_TN_RST_ST2	FST_AK8963.c	71;"	d	file:
+TLIMIT_TN_RST_ST2	FST_AK8975.c	71;"	d	file:
+TLIMIT_TN_RST_WIA	FST_AK09911.c	110;"	d	file:
+TLIMIT_TN_RST_WIA	FST_AK8963.c	35;"	d	file:
+TLIMIT_TN_RST_WIA	FST_AK8975.c	35;"	d	file:
+TLIMIT_TN_RST_WIA1_09911	FST_AK09911.c	35;"	d	file:
+TLIMIT_TN_RST_WIA2_09911	FST_AK09911.c	39;"	d	file:
+TLIMIT_TN_SLF_RVHX	FST_AK09911.c	218;"	d	file:
+TLIMIT_TN_SLF_RVHX	FST_AK8963.c	143;"	d	file:
+TLIMIT_TN_SLF_RVHX	FST_AK8975.c	136;"	d	file:
+TLIMIT_TN_SLF_RVHX_09911	FST_AK09911.c	87;"	d	file:
+TLIMIT_TN_SLF_RVHY	FST_AK09911.c	223;"	d	file:
+TLIMIT_TN_SLF_RVHY	FST_AK8963.c	148;"	d	file:
+TLIMIT_TN_SLF_RVHY	FST_AK8975.c	141;"	d	file:
+TLIMIT_TN_SLF_RVHY_09911	FST_AK09911.c	92;"	d	file:
+TLIMIT_TN_SLF_RVHZ	FST_AK09911.c	228;"	d	file:
+TLIMIT_TN_SLF_RVHZ	FST_AK8963.c	153;"	d	file:
+TLIMIT_TN_SLF_RVHZ	FST_AK8975.c	146;"	d	file:
+TLIMIT_TN_SLF_RVHZ_09911	FST_AK09911.c	97;"	d	file:
+TLIMIT_TN_SLF_ST1	FST_AK09911.c	213;"	d	file:
+TLIMIT_TN_SLF_ST1	FST_AK8963.c	138;"	d	file:
+TLIMIT_TN_SLF_ST1	FST_AK8975.c	131;"	d	file:
+TLIMIT_TN_SLF_ST1_09911	FST_AK09911.c	82;"	d	file:
+TLIMIT_TN_SLF_ST2	FST_AK09911.c	233;"	d	file:
+TLIMIT_TN_SLF_ST2	FST_AK8963.c	158;"	d	file:
+TLIMIT_TN_SLF_ST2	FST_AK8975.c	151;"	d	file:
+TLIMIT_TN_SLF_ST2_09911	FST_AK09911.c	102;"	d	file:
+TLIMIT_TN_SNG_HX	FST_AK09911.c	191;"	d	file:
+TLIMIT_TN_SNG_HX	FST_AK8963.c	116;"	d	file:
+TLIMIT_TN_SNG_HX	FST_AK8975.c	111;"	d	file:
+TLIMIT_TN_SNG_HX_09911	FST_AK09911.c	62;"	d	file:
+TLIMIT_TN_SNG_HY	FST_AK09911.c	196;"	d	file:
+TLIMIT_TN_SNG_HY	FST_AK8963.c	121;"	d	file:
+TLIMIT_TN_SNG_HY	FST_AK8975.c	116;"	d	file:
+TLIMIT_TN_SNG_HY_09911	FST_AK09911.c	67;"	d	file:
+TLIMIT_TN_SNG_HZ	FST_AK09911.c	201;"	d	file:
+TLIMIT_TN_SNG_HZ	FST_AK8963.c	126;"	d	file:
+TLIMIT_TN_SNG_HZ	FST_AK8975.c	121;"	d	file:
+TLIMIT_TN_SNG_HZ_09911	FST_AK09911.c	72;"	d	file:
+TLIMIT_TN_SNG_ST1	FST_AK09911.c	186;"	d	file:
+TLIMIT_TN_SNG_ST1	FST_AK8963.c	111;"	d	file:
+TLIMIT_TN_SNG_ST1	FST_AK8975.c	106;"	d	file:
+TLIMIT_TN_SNG_ST1_09911	FST_AK09911.c	57;"	d	file:
+TLIMIT_TN_SNG_ST2	FST_AK09911.c	206;"	d	file:
+TLIMIT_TN_SNG_ST2	FST_AK8963.c	131;"	d	file:
+TLIMIT_TN_SNG_ST2	FST_AK8975.c	126;"	d	file:
+TLIMIT_TN_SNG_ST2_09911	FST_AK09911.c	77;"	d	file:
+TLIMIT_TN_WR_CNTL	FST_AK8975.c	101;"	d	file:
+TLIMIT_TN_WR_CNTL1	FST_AK09911.c	181;"	d	file:
+TLIMIT_TN_WR_CNTL1	FST_AK8963.c	106;"	d	file:
+UI32MUL	libSmartCompass/AKMDevice.h	32;"	d
+UI32MUL	libSmartCompass/AKMDevice.h	35;"	d
+YAW_AVERAGE_H	yaw_average.h	2;"	d
+YAW_DIFF_THRESHODL	yaw_average.c	6;"	d	file:
+YAW_SCALE	yaw_average.c	5;"	d	file:
+_11	libSmartCompass/AKMDevice.h	/^		int16	_11, _12, _13;$/;"	m	struct:_I16MATRIX::__anon3
+_11	libSmartCompass/AKMDevice.h	/^        int32 _11, _12, _13;$/;"	m	struct:_I32MATRIX::__anon4
+_11	libSmartCompass/AKMDeviceF.h	/^		AKSC_FLOAT	_11, _12, _13;$/;"	m	struct:_AKSC_FMAT::__anon7
+_12	libSmartCompass/AKMDevice.h	/^		int16	_11, _12, _13;$/;"	m	struct:_I16MATRIX::__anon3
+_12	libSmartCompass/AKMDevice.h	/^        int32 _11, _12, _13;$/;"	m	struct:_I32MATRIX::__anon4
+_12	libSmartCompass/AKMDeviceF.h	/^		AKSC_FLOAT	_11, _12, _13;$/;"	m	struct:_AKSC_FMAT::__anon7
+_13	libSmartCompass/AKMDevice.h	/^		int16	_11, _12, _13;$/;"	m	struct:_I16MATRIX::__anon3
+_13	libSmartCompass/AKMDevice.h	/^        int32 _11, _12, _13;$/;"	m	struct:_I32MATRIX::__anon4
+_13	libSmartCompass/AKMDeviceF.h	/^		AKSC_FLOAT	_11, _12, _13;$/;"	m	struct:_AKSC_FMAT::__anon7
+_21	libSmartCompass/AKMDevice.h	/^		int16	_21, _22, _23;$/;"	m	struct:_I16MATRIX::__anon3
+_21	libSmartCompass/AKMDevice.h	/^        int32 _21, _22, _23;$/;"	m	struct:_I32MATRIX::__anon4
+_21	libSmartCompass/AKMDeviceF.h	/^		AKSC_FLOAT	_21, _22, _23;$/;"	m	struct:_AKSC_FMAT::__anon7
+_22	libSmartCompass/AKMDevice.h	/^		int16	_21, _22, _23;$/;"	m	struct:_I16MATRIX::__anon3
+_22	libSmartCompass/AKMDevice.h	/^        int32 _21, _22, _23;$/;"	m	struct:_I32MATRIX::__anon4
+_22	libSmartCompass/AKMDeviceF.h	/^		AKSC_FLOAT	_21, _22, _23;$/;"	m	struct:_AKSC_FMAT::__anon7
+_23	libSmartCompass/AKMDevice.h	/^		int16	_21, _22, _23;$/;"	m	struct:_I16MATRIX::__anon3
+_23	libSmartCompass/AKMDevice.h	/^        int32 _21, _22, _23;$/;"	m	struct:_I32MATRIX::__anon4
+_23	libSmartCompass/AKMDeviceF.h	/^		AKSC_FLOAT	_21, _22, _23;$/;"	m	struct:_AKSC_FMAT::__anon7
+_31	libSmartCompass/AKMDevice.h	/^		int16	_31, _32, _33;$/;"	m	struct:_I16MATRIX::__anon3
+_31	libSmartCompass/AKMDevice.h	/^        int32 _31, _32, _33;$/;"	m	struct:_I32MATRIX::__anon4
+_31	libSmartCompass/AKMDeviceF.h	/^		AKSC_FLOAT	_31, _32, _33;$/;"	m	struct:_AKSC_FMAT::__anon7
+_32	libSmartCompass/AKMDevice.h	/^		int16	_31, _32, _33;$/;"	m	struct:_I16MATRIX::__anon3
+_32	libSmartCompass/AKMDevice.h	/^        int32 _31, _32, _33;$/;"	m	struct:_I32MATRIX::__anon4
+_32	libSmartCompass/AKMDeviceF.h	/^		AKSC_FLOAT	_31, _32, _33;$/;"	m	struct:_AKSC_FMAT::__anon7
+_33	libSmartCompass/AKMDevice.h	/^		int16	_31, _32, _33;$/;"	m	struct:_I16MATRIX::__anon3
+_33	libSmartCompass/AKMDevice.h	/^        int32 _31, _32, _33;$/;"	m	struct:_I32MATRIX::__anon4
+_33	libSmartCompass/AKMDeviceF.h	/^		AKSC_FLOAT	_31, _32, _33;$/;"	m	struct:_AKSC_FMAT::__anon7
+_AKMD_LOOP_TIME	misc.h	/^typedef struct _AKMD_LOOP_TIME {$/;"	s
+_AKMD_PATNO	AKCompass.h	/^typedef enum _AKMD_PATNO {$/;"	g
+_AKPG_COND	libSmartCompass/AKPseudoGyro.h	/^typedef struct _AKPG_COND{$/;"	s
+_AKPG_VAR	libSmartCompass/AKPseudoGyro.h	/^typedef struct _AKPG_VAR{$/;"	s
+_AKSCPRMS	AKCompass.h	/^typedef struct _AKSCPRMS{$/;"	s
+_AKSC_FMAT	libSmartCompass/AKMDeviceF.h	/^typedef union _AKSC_FMAT{$/;"	u
+_AKSC_FQUAT	libSmartCompass/AKMDeviceF.h	/^typedef union _AKSC_FQUAT{$/;"	u
+_AKSC_FVEC	libSmartCompass/AKMDeviceF.h	/^typedef union _AKSC_FVEC{$/;"	u
+_AKSC_HDFI	libSmartCompass/AKHDOE.h	/^typedef enum _AKSC_HDFI{$/;"	g
+_AKSC_HDOEVAR	libSmartCompass/AKHDOE.h	/^typedef struct _AKSC_HDOEVAR{					\/\/ Variables necessary for DOE calculation$/;"	s
+_AKSC_HDST	libSmartCompass/AKHDOE.h	/^typedef enum _AKSC_HDST{$/;"	g
+_AKSC_HFLUCVAR	libSmartCompass/AKHFlucCheck.h	/^typedef struct _AKSC_HFLUCVAR {$/;"	s
+_Axis	filter_common.h	/^typedef enum _Axis$/;"	g
+_FORM_CLASS	Measure.h	/^typedef struct _FORM_CLASS {$/;"	s
+_I16MATRIX	libSmartCompass/AKMDevice.h	/^typedef union _I16MATRIX{$/;"	u
+_I16QUAT	libSmartCompass/AKMDevice.h	/^typedef union _I16QUAT{$/;"	u
+_I32MATRIX	libSmartCompass/AKMDevice.h	/^typedef union _I32MATRIX {$/;"	u
+_MODE	DispMessage.h	/^typedef enum _MODE {$/;"	g
+_int16vec	libSmartCompass/AKMDevice.h	/^typedef union _int16vec{ \/\/ Three-dimensional vector constructed of signed 16 bits fixed point numbers$/;"	u
+_int32vec	libSmartCompass/AKMDevice.h	/^typedef union _int32vec{ \/\/ Three-dimensional vector constructed of signed 32 bits fixed point numbers$/;"	u
+acc_buf	stable_checking.c	/^static float acc_buf[3][ACC_BUFFER_SIZE];$/;"	v	file:
+acc_buf_full	stable_checking.c	/^static int acc_buf_full = false;$/;"	v	file:
+acc_buf_pos	stable_checking.c	/^static int acc_buf_pos = 0;$/;"	v	file:
+acc_init_flag	stable_checking.c	/^static int acc_init_flag = false;$/;"	v	file:
+acc_x_stdev	stable_checking.c	/^static double acc_x_stdev = 0.0f;$/;"	v	file:
+acc_y_stdev	stable_checking.c	/^static double acc_y_stdev = 0.0f;$/;"	v	file:
+acc_z_stdev	stable_checking.c	/^static double acc_z_stdev = 0.0f;$/;"	v	file:
+adbuf	libSmartCompass/AKPseudoGyro.h	/^	AKSC_FVEC	adbuf[AKPG_DBUF_SIZE];$/;"	m	struct:_AKPG_VAR
+afbuf	libSmartCompass/AKPseudoGyro.h	/^	AKSC_FVEC	afbuf[AKPG_FBUF_SIZE];$/;"	m	struct:_AKPG_VAR
+akm_data_buffer	yaw_average.c	/^static float akm_data_buffer[AKM_DATA_SIZE];$/;"	v	file:
+akm_device	AKCompass.h	/^	int16			akm_device;$/;"	m	struct:_AKSCPRMS
+akm_sensor_avg	yaw_average.c	/^float akm_sensor_avg(float data)$/;"	f
+akm_sensor_avg_init	yaw_average.c	/^static void akm_sensor_avg_init(float init_data)$/;"	f	file:
+akm_sensor_deinit	yaw_average.c	/^void akm_sensor_deinit()$/;"	f
+anbuf	libSmartCompass/AKPseudoGyro.h	/^	AKSC_FVEC	anbuf[AKPG_NBUF_SIZE];$/;"	m	struct:_AKPG_VAR
+buffer_full_flag	yaw_average.c	/^static int buffer_full_flag = 0;$/;"	v	file:
+check	Measure.h	/^	CHECK_FORM	check;$/;"	m	struct:_FORM_CLASS
+checkForm	Measure.c	/^static int16 checkForm(void)$/;"	f	file:
+close	Measure.h	/^	CLOSE_FORM	close;$/;"	m	struct:_FORM_CLASS
+closeForm	Measure.c	/^static void closeForm(void)$/;"	f	file:
+data_init_flag	yaw_average.c	/^static int data_init_flag = 0;$/;"	v	file:
+decimator	misc.c	/^	int16 decimator; \/*!< HDOE decimator *\/$/;"	m	struct:AKMD_INTERVAL	file:
+detect_phone_moving	stable_checking.c	/^int detect_phone_moving(void)$/;"	f
+dtave	libSmartCompass/AKPseudoGyro.h	/^	int16		dtave;		\/\/	average number of dt$/;"	m	struct:_AKPG_COND
+dtbuf	libSmartCompass/AKPseudoGyro.h	/^	int16		dtbuf[AKPG_FBUF_SIZE];$/;"	m	struct:_AKPG_VAR
+dump	yaw_average.c	/^void dump()$/;"	f
+duration	misc.h	/^	int64_t duration; \/*!< duration to the next event *\/$/;"	m	struct:_AKMD_LOOP_TIME
+false	stable_checking.c	6;"	d	file:
+fmode	libSmartCompass/AKPseudoGyro.h	/^	int16		fmode;		\/\/	0:filter mode 0, 1:filter mode 1$/;"	m	struct:_AKPG_COND
+g_akmlog_enable	AKMLog.h	/^int g_akmlog_enable;$/;"	v
+g_dbgzone	main.c	/^int g_dbgzone = 0;$/;"	v
+g_file_acc	AKMD_Driver.c	/^int g_file_acc = -1;$/;"	v
+g_form	Measure.c	/^static FORM_CLASS* g_form = NULL;$/;"	v	file:
+g_mainQuit	main.c	/^int g_mainQuit = AKD_FALSE;$/;"	v
+g_opmode	main.c	/^int g_opmode = 0;$/;"	v
+g_stopRequest	main.c	/^int g_stopRequest = 0;$/;"	v
+hbuf	libSmartCompass/AKHDOE.h	/^	int16vec		hbuf[AKSC_HBUF_SIZE];		\/\/ Buffer for measurement values$/;"	m	struct:_AKSC_HDOEVAR
+hdbuf	libSmartCompass/AKPseudoGyro.h	/^	AKSC_FVEC	hdbuf[AKPG_DBUF_SIZE];$/;"	m	struct:_AKPG_VAR
+hdoeCnt	libSmartCompass/AKHDOE.h	/^	int16			hdoeCnt;					\/\/ DOE counter$/;"	m	struct:_AKSC_HDOEVAR
+hdoeLv	libSmartCompass/AKHDOE.h	/^	int16			hdoeLv;						\/\/ HDOE level$/;"	m	struct:_AKSC_HDOEVAR
+hfbuf	libSmartCompass/AKPseudoGyro.h	/^	AKSC_FVEC	hfbuf[AKPG_FBUF_SIZE];$/;"	m	struct:_AKPG_VAR
+hnbuf	libSmartCompass/AKPseudoGyro.h	/^	AKSC_FVEC	hnbuf[AKPG_NBUF_SIZE];$/;"	m	struct:_AKPG_VAR
+hobuf	libSmartCompass/AKHDOE.h	/^	int16vec		hobuf[AKSC_HOBUF_SIZE];		\/\/ Buffer for offsets$/;"	m	struct:_AKSC_HDOEVAR
+hobufHR	libSmartCompass/AKHDOE.h	/^	int16vec		hobufHR[AKSC_HOBUF_SIZE];	\/\/ Buffer for offsets to check the size of geomagnetism$/;"	m	struct:_AKSC_HDOEVAR
+hrdoe	libSmartCompass/AKHDOE.h	/^	int16			hrdoe;						\/\/ Geomagnetic vector size$/;"	m	struct:_AKSC_HDOEVAR
+hrdoeHR	libSmartCompass/AKHDOE.h	/^	int16			hrdoeHR;$/;"	m	struct:_AKSC_HDOEVAR
+href	libSmartCompass/AKHFlucCheck.h	/^	int16vec	href; \/\/ Basis of magnetic field$/;"	m	struct:_AKSC_HFLUCVAR
+hthIdx	libSmartCompass/AKHDOE.h	/^	int16			hthIdx;						\/\/ Index of HTH. This value can be from 0 to AKSC_NUM_HCOND-1$/;"	m	struct:_AKSC_HDOEVAR
+hvobuf	libSmartCompass/AKHDOE.h	/^	int16vec		hvobuf[AKSC_HOBUF_SIZE];	\/\/ Buffer for successful offsets$/;"	m	struct:_AKSC_HDOEVAR
+iaave	libSmartCompass/AKPseudoGyro.h	/^	int16		iaave;		\/\/	average number of input acceleration vector$/;"	m	struct:_AKPG_COND
+ihave	libSmartCompass/AKPseudoGyro.h	/^	int16		ihave;		\/\/	average number of input magnetic vector$/;"	m	struct:_AKPG_COND
+init_acc_variables	stable_checking.c	/^static void init_acc_variables(void)$/;"	f	file:
+int16	libSmartCompass/AKMDevice.h	/^typedef int16_t  int16;$/;"	t
+int16	libSmartCompass/AKMDevice.h	/^typedef short          int16;$/;"	t
+int16vec	libSmartCompass/AKMDevice.h	/^} int16vec;$/;"	t	typeref:union:_int16vec
+int32	libSmartCompass/AKMDevice.h	/^typedef int            int32;$/;"	t
+int32	libSmartCompass/AKMDevice.h	/^typedef int32_t  int32;$/;"	t
+int32	libSmartCompass/AKMDevice.h	/^typedef long           int32;$/;"	t
+int32vec	libSmartCompass/AKMDevice.h	/^} int32vec;$/;"	t	typeref:union:_int32vec
+int64_to_timespec	misc.c	/^struct timespec int64_to_timespec(int64_t val)$/;"	f
+interval	misc.c	/^	long interval; \/*!< Measurement interval, 32-bit is enough for HDOE *\/$/;"	m	struct:AKMD_INTERVAL	file:
+interval	misc.h	/^	int64_t interval; \/*!< Interval of each event *\/$/;"	m	struct:_AKMD_LOOP_TIME
+m	libSmartCompass/AKMDevice.h	/^	int16	m[3][3];$/;"	m	union:_I16MATRIX
+m	libSmartCompass/AKMDevice.h	/^    int32 m[3][3];$/;"	m	union:_I32MATRIX
+m	libSmartCompass/AKMDeviceF.h	/^	AKSC_FLOAT	m[3][3];$/;"	m	union:_AKSC_FMAT
+m_AO	AKCompass.h	/^	int16vec	m_AO;$/;"	m	struct:_AKSCPRMS
+m_adataPG	AKCompass.h	/^	AKSC_FVEC		m_adataPG;$/;"	m	struct:_AKSCPRMS
+m_ar	AKCompass.h	/^	int16		m_ar;$/;"	m	struct:_AKSCPRMS
+m_asa	AKCompass.h	/^	int16vec	m_asa;$/;"	m	struct:_AKSCPRMS
+m_avec	AKCompass.h	/^	int16vec	m_avec;$/;"	m	struct:_AKSCPRMS
+m_bias	AKCompass.h	/^	int32vec	m_bias;$/;"	m	struct:_AKSCPRMS
+m_calib	AKCompass.h	/^	int16vec	m_calib;$/;"	m	struct:_AKSCPRMS
+m_callcnt	AKCompass.h	/^	int16		m_callcnt;$/;"	m	struct:_AKSCPRMS
+m_cntSuspend	AKCompass.h	/^	int16		m_cntSuspend;$/;"	m	struct:_AKSCPRMS
+m_d6dRet	AKCompass.h	/^	int16		m_d6dRet;$/;"	m	struct:_AKSCPRMS
+m_delta	AKCompass.h	/^	int16		m_delta;$/;"	m	struct:_AKSCPRMS
+m_doeex_var	AKCompass.h	/^	AKSC_DOEEXVAR	*m_doeex_var;$/;"	m	struct:_AKSCPRMS
+m_doep_lv	AKCompass.h	/^	int16			m_doep_lv;$/;"	m	struct:_AKSCPRMS
+m_doep_var	AKCompass.h	/^	AKSC_DOEPVAR	*m_doep_var;$/;"	m	struct:_AKSCPRMS
+m_dvec	AKCompass.h	/^	int16vec	m_dvec;$/;"	m	struct:_AKSCPRMS
+m_en_doeplus	AKCompass.h	/^	int16			m_en_doeplus;$/;"	m	struct:_AKSCPRMS
+m_eta180	AKCompass.h	/^	int16		m_eta180;$/;"	m	struct:_AKSCPRMS
+m_eta90	AKCompass.h	/^	int16		m_eta90;$/;"	m	struct:_AKSCPRMS
+m_form	AKCompass.h	/^	int16		m_form;$/;"	m	struct:_AKSCPRMS
+m_hbase	AKCompass.h	/^	int32vec	m_hbase;$/;"	m	struct:_AKSCPRMS
+m_hdata	AKCompass.h	/^	int16vec	m_hdata[AKSC_HDATA_SIZE];$/;"	m	struct:_AKSCPRMS
+m_hdataPG	AKCompass.h	/^	AKSC_FVEC		m_hdataPG;$/;"	m	struct:_AKSCPRMS
+m_hdata_plus	AKCompass.h	/^	int16vec		m_hdata_plus[AKSC_HDATA_SIZE];$/;"	m	struct:_AKSCPRMS
+m_hdoev	AKCompass.h	/^	AKSC_HDOEVAR	m_hdoev;$/;"	m	struct:_AKSCPRMS
+m_hdst	AKCompass.h	/^	AKSC_HDST		m_hdst;$/;"	m	struct:_AKSCPRMS
+m_hflucv	AKCompass.h	/^	AKSC_HFLUCVAR	m_hflucv;$/;"	m	struct:_AKSCPRMS
+m_hlayout	AKCompass.h	/^	AKMD_PATNO	m_hlayout;$/;"	m	struct:_AKSCPRMS
+m_hn	AKCompass.h	/^	int16		m_hn;		\/\/ Number of acquired data$/;"	m	struct:_AKSCPRMS
+m_hnave	AKCompass.h	/^	int16		m_hnave;$/;"	m	struct:_AKSCPRMS
+m_ho	AKCompass.h	/^	int16vec	m_ho;$/;"	m	struct:_AKSCPRMS
+m_ho32	AKCompass.h	/^	int32vec	m_ho32;$/;"	m	struct:_AKSCPRMS
+m_hr	AKCompass.h	/^	int16		m_hr;$/;"	m	struct:_AKSCPRMS
+m_hrhoriz	AKCompass.h	/^	int16		m_hrhoriz;$/;"	m	struct:_AKSCPRMS
+m_hs	AKCompass.h	/^	int16vec	m_hs;$/;"	m	struct:_AKSCPRMS
+m_hvec	AKCompass.h	/^	int16vec	m_hvec;		\/\/ Averaged value$/;"	m	struct:_AKSCPRMS
+m_key	AKCompass.h	/^	int16		m_key[AKSC_CI_MAX_KEYSIZE];$/;"	m	struct:_AKSCPRMS
+m_licensee	AKCompass.h	/^	uint8		m_licensee[AKSC_CI_MAX_CHARSIZE+1];	\/\/end with '\\0'$/;"	m	struct:_AKSCPRMS
+m_licenser	AKCompass.h	/^	uint8		m_licenser[AKSC_CI_MAX_CHARSIZE+1];	\/\/end with '\\0'$/;"	m	struct:_AKSCPRMS
+m_mat	AKCompass.h	/^	I16MATRIX	m_mat;$/;"	m	struct:_AKSCPRMS
+m_pdc	AKCompass.h	/^	uint8		m_pdc[PDC_SIZE];$/;"	m	struct:_AKSCPRMS
+m_pdcptr	AKCompass.h	/^	uint8*		m_pdcptr;$/;"	m	struct:_AKSCPRMS
+m_pgGravity	AKCompass.h	/^	AKSC_FVEC		m_pgGravity;$/;"	m	struct:_AKSCPRMS
+m_pgLinAcc	AKCompass.h	/^	AKSC_FVEC		m_pgLinAcc;$/;"	m	struct:_AKSCPRMS
+m_pgRet	AKCompass.h	/^	int16			m_pgRet;$/;"	m	struct:_AKSCPRMS
+m_pgcond	AKCompass.h	/^	AKPG_COND		m_pgcond;$/;"	m	struct:_AKSCPRMS
+m_pgdt	AKCompass.h	/^	int16			m_pgdt;$/;"	m	struct:_AKSCPRMS
+m_pgout	AKCompass.h	/^	AKSC_FVEC		m_pgout;$/;"	m	struct:_AKSCPRMS
+m_pgquat	AKCompass.h	/^	AKSC_FQUAT		m_pgquat;$/;"	m	struct:_AKSCPRMS
+m_pgvar	AKCompass.h	/^	AKPG_VAR		m_pgvar;	$/;"	m	struct:_AKSCPRMS
+m_phi180	AKCompass.h	/^	int16		m_phi180;$/;"	m	struct:_AKSCPRMS
+m_phi90	AKCompass.h	/^	int16		m_phi90;$/;"	m	struct:_AKSCPRMS
+m_quat	AKCompass.h	/^	I16QUAT		m_quat;$/;"	m	struct:_AKSCPRMS
+m_theta	AKCompass.h	/^	int16		m_theta;$/;"	m	struct:_AKSCPRMS
+m_uncalib	AKCompass.h	/^	int32vec	m_uncalib;$/;"	m	struct:_AKSCPRMS
+main	main.c	/^int main(int argc, char **argv)$/;"	f
+mbuf	libSmartCompass/AKPseudoGyro.h	/^	AKSC_FMAT	mbuf[AKPG_MBUF_SIZE];$/;"	m	struct:_AKPG_VAR
+misc_checkForm	misc.c	/^int16 misc_checkForm(void)$/;"	f
+misc_closeForm	misc.c	/^void misc_closeForm(void)$/;"	f
+misc_openForm	misc.c	/^int16 misc_openForm(void)$/;"	f
+msleep	misc.c	/^inline void msleep(signed int msec)$/;"	f
+ocoef	libSmartCompass/AKPseudoGyro.h	/^	AKSC_FLOAT	ocoef;		\/\/	damping fuctor [0(static), 1(through)]$/;"	m	struct:_AKPG_COND
+open	Measure.h	/^	OPEN_FORM	open;$/;"	m	struct:_FORM_CLASS
+openForm	Measure.c	/^static int16 openForm(void)$/;"	f	file:
+openInputDevice	misc.c	/^int openInputDevice(const char* name)$/;"	f
+phone_move	stable_checking.c	/^int phone_move(const float gx, const float gy, const float gz)$/;"	f
+phone_moving	Measure.c	/^static char phone_moving = -1;$/;"	v	file:
+pre_yaw	yaw_average.c	/^static float pre_yaw = 0.0f;$/;"	v	file:
+q	libSmartCompass/AKMDevice.h	/^	int16	q[4];$/;"	m	union:_I16QUAT
+q	libSmartCompass/AKMDeviceF.h	/^    AKSC_FLOAT		q[4];$/;"	m	union:_AKSC_FQUAT
+reserved	libSmartCompass/AKHDOE.h	/^	int16			reserved;					\/\/ Reserve$/;"	m	struct:_AKSC_HDOEVAR
+s_fdDev	AKMD_Driver.c	/^int s_fdDev = -1;$/;"	v
+s_fdForm	misc.c	/^static int s_fdForm = -1; \/*!< FD to formation detect device *\/$/;"	v	file:
+s_formClass	main.c	/^static FORM_CLASS s_formClass = {$/;"	v	file:
+s_interval	misc.c	/^static struct AKMD_INTERVAL s_interval[] = {$/;"	v	typeref:struct:AKMD_INTERVAL	file:
+s_thread	main.c	/^static pthread_t s_thread;	\/*!< Thread handle *\/$/;"	v	file:
+signal_handler	main.c	/^static void signal_handler(int sig)$/;"	f	file:
+sortArray	yaw_average.c	/^void sortArray(float data[], int num)$/;"	f
+startClone	main.c	/^static int startClone(AKSCPRMS* prms)$/;"	f	file:
+store_save_pos	yaw_average.c	/^static int store_save_pos = 0;$/;"	v	file:
+th	libSmartCompass/AKHFlucCheck.h	/^	int16		th;   \/\/ The range of fluctuation$/;"	m	struct:_AKSC_HFLUCVAR
+th_rdif	libSmartCompass/AKPseudoGyro.h	/^	int16		th_rdif;	\/\/	|H| change threshold [uT]$/;"	m	struct:_AKPG_COND
+th_rmax	libSmartCompass/AKPseudoGyro.h	/^	int16		th_rmax;	\/\/	|H| upper threshold [uT]$/;"	m	struct:_AKPG_COND
+th_rmin	libSmartCompass/AKPseudoGyro.h	/^	int16		th_rmin;	\/\/	|H| lower threshold [uT]$/;"	m	struct:_AKPG_COND
+thread_main	main.c	/^static void* thread_main(void* args)$/;"	f	file:
+timespec_to_int64	misc.c	/^int64_t timespec_to_int64(struct timespec* val)$/;"	f
+true	stable_checking.c	5;"	d	file:
+u	libSmartCompass/AKMDevice.h	/^	} u;$/;"	m	union:_int32vec	typeref:struct:_int32vec::__anon2
+u	libSmartCompass/AKMDevice.h	/^	}u;$/;"	m	union:_I16MATRIX	typeref:struct:_I16MATRIX::__anon3
+u	libSmartCompass/AKMDevice.h	/^	}u;$/;"	m	union:_I16QUAT	typeref:struct:_I16QUAT::__anon5
+u	libSmartCompass/AKMDevice.h	/^	}u;$/;"	m	union:_int16vec	typeref:struct:_int16vec::__anon1
+u	libSmartCompass/AKMDevice.h	/^    } u;$/;"	m	union:_I32MATRIX	typeref:struct:_I32MATRIX::__anon4
+u	libSmartCompass/AKMDeviceF.h	/^	}u;$/;"	m	union:_AKSC_FMAT	typeref:struct:_AKSC_FMAT::__anon7
+u	libSmartCompass/AKMDeviceF.h	/^	}u;$/;"	m	union:_AKSC_FVEC	typeref:struct:_AKSC_FVEC::__anon6
+u	libSmartCompass/AKMDeviceF.h	/^    }u;$/;"	m	union:_AKSC_FQUAT	typeref:struct:_AKSC_FQUAT::__anon8
+uint16	libSmartCompass/AKMDevice.h	/^typedef uint16_t uint16;$/;"	t
+uint16	libSmartCompass/AKMDevice.h	/^typedef unsigned short uint16;$/;"	t
+uint32	libSmartCompass/AKMDevice.h	/^typedef uint32_t uint32;$/;"	t
+uint32	libSmartCompass/AKMDevice.h	/^typedef unsigned int   uint32;$/;"	t
+uint32	libSmartCompass/AKMDevice.h	/^typedef unsigned long  uint32;$/;"	t
+uint8	libSmartCompass/AKMDevice.h	/^typedef uint8_t  uint8;$/;"	t
+uint8	libSmartCompass/AKMDevice.h	/^typedef unsigned char  uint8;$/;"	t
+update_acc_buf	stable_checking.c	/^void update_acc_buf(const float gx, const float gy, const float gz)$/;"	f
+v	libSmartCompass/AKMDevice.h	/^	int16	v[3];$/;"	m	union:_int16vec
+v	libSmartCompass/AKMDevice.h	/^	int32 v[3];$/;"	m	union:_int32vec
+v	libSmartCompass/AKMDeviceF.h	/^	AKSC_FLOAT	v[3];$/;"	m	union:_AKSC_FVEC
+w	libSmartCompass/AKMDevice.h	/^		int16		w;$/;"	m	struct:_I16QUAT::__anon5
+w	libSmartCompass/AKMDeviceF.h	/^        AKSC_FLOAT	w;$/;"	m	struct:_AKSC_FQUAT::__anon8
+x	filter_common.h	/^    x = 0,$/;"	e	enum:_Axis
+x	libSmartCompass/AKMDevice.h	/^		int16		x;$/;"	m	struct:_I16QUAT::__anon5
+x	libSmartCompass/AKMDevice.h	/^		int16	x;$/;"	m	struct:_int16vec::__anon1
+x	libSmartCompass/AKMDevice.h	/^		int32	x;$/;"	m	struct:_int32vec::__anon2
+x	libSmartCompass/AKMDeviceF.h	/^		AKSC_FLOAT	x;$/;"	m	struct:_AKSC_FVEC::__anon6
+x	libSmartCompass/AKMDeviceF.h	/^        AKSC_FLOAT	x;$/;"	m	struct:_AKSC_FQUAT::__anon8
+x	sensors_io.h	/^	int x;$/;"	m	struct:__anon10
+x	sensors_io.h	/^	unsigned short	x;		\/**< X axis *\/$/;"	m	struct:__anon9
+y	filter_common.h	/^    y = 1,$/;"	e	enum:_Axis
+y	libSmartCompass/AKMDevice.h	/^		int16		y;$/;"	m	struct:_I16QUAT::__anon5
+y	libSmartCompass/AKMDevice.h	/^		int16	y;$/;"	m	struct:_int16vec::__anon1
+y	libSmartCompass/AKMDevice.h	/^		int32	y;$/;"	m	struct:_int32vec::__anon2
+y	libSmartCompass/AKMDeviceF.h	/^		AKSC_FLOAT	y;$/;"	m	struct:_AKSC_FVEC::__anon6
+y	libSmartCompass/AKMDeviceF.h	/^        AKSC_FLOAT	y;$/;"	m	struct:_AKSC_FQUAT::__anon8
+y	sensors_io.h	/^	int y;$/;"	m	struct:__anon10
+y	sensors_io.h	/^	unsigned short	y;		\/**< Y axis *\/$/;"	m	struct:__anon9
+z	filter_common.h	/^    z = 2$/;"	e	enum:_Axis
+z	libSmartCompass/AKMDevice.h	/^		int16		z;$/;"	m	struct:_I16QUAT::__anon5
+z	libSmartCompass/AKMDevice.h	/^		int16	z;$/;"	m	struct:_int16vec::__anon1
+z	libSmartCompass/AKMDevice.h	/^		int32	z;$/;"	m	struct:_int32vec::__anon2
+z	libSmartCompass/AKMDeviceF.h	/^		AKSC_FLOAT	z;$/;"	m	struct:_AKSC_FVEC::__anon6
+z	libSmartCompass/AKMDeviceF.h	/^        AKSC_FLOAT	z;$/;"	m	struct:_AKSC_FQUAT::__anon8
+z	sensors_io.h	/^	int z;$/;"	m	struct:__anon10
+z	sensors_io.h	/^	unsigned short	z;		\/**< Z axis *\/$/;"	m	struct:__anon9
