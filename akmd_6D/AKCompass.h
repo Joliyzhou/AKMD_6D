@@ -67,6 +67,9 @@ typedef enum _AKMD_PATNO {
 /*! A parameter structure which is needed for HDOE and Direction calculation. */
 typedef struct _AKSCPRMS{
 
+	int16                   m_pre_usb_online;
+	int16                   m_usb_online;
+	int16                   m_usb_changed;
 	// Variables for magnetic sensor.
 	int16vec	m_ho;
 	int16vec	HSUC_HO[CSPEC_NUM_FORMATION];
